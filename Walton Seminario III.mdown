@@ -1,0 +1,73 @@
+% Seminario Walton
+
+# Consideraciones a partir de la pregunta por el ser del ente. 
+
+En el Manuscrito de 1931 (Hua XXXIV) titulado _Consideraciones a partir de la pretendida pregunta por el ser del ente_, Husserl formula la siguiente cuestión: 
+
+> “¿Tiene sentido la ‘elaboración’ heideggeriana de la pregunta  por el ‘ser del ente’, y cómo puede en general tener sentido la pregunta, que parte de Aristóteles, por el ente en tanto ente?” (Hua XXXIV, 264 s.). 
+
+La respuesta de Husserl es que la __comprensión del ser__ debe ser entendida como una __apercepción del mundo__, es decir, como la __percepción de un sector y la referencia a una totalidad en el modo de un horizonte universal__. 
+
+__SER__: APERCEPCIÓN DEL MUNDO. 
+
+__APERCEPCIÓN DEL MUNDO__: HORIZONTE UNIVERSAL. 
+
+A su vez, la __fenomenología genética__ o la __fenomenología generativa__ tendrán que responder la pregunta respecto a la __genesis del horizonte__. La pregunta por el __ser__ es una pregunta acerca de la constitución del mundo como el horizonte de los horizontes entonces, o como el horizonte más universal en cada caso (esto es, en el caso de la constitución del _a priori_ histórico). De allí tenemos la ss pregunta entonces: 
+
+>“¿Cuál es el beneficio para el ser humano de tener la marca distintiva de la comprensión del ser, si, como puede comprobarse, esta comprensión del ser, la comprensión particular en un momento dado, es algo que, como asunto de esencial necesidad, es el resultado de un desarrollo, y también lo es ser-como-este-ser-humano? […]” 
+
+La noción de que la __comprensión del ser__ es el __resultado de un desarrollo__ remite directamente a los problemas de una fenomenología que se realiza por medio del método de la __pregunta retrospectiva__. Por otro lado, el desarrollo subsiguiente de Heidegger, a partir de la pregunta por la __historia del ser__ va a encaminarse exactamente en la misma dirección. En este sentido, no solo vale la idea de Heidegger de 1923, en donde afirma en su Prefacio al Curso _Ontología. Hermenéutica de la facticidad_ "los ojos me los puso Husserl" (GA 63) para el principio de su filosofar, sino también para la continuidad de su pensamiento con posterioridad a __SyT__. 
+
+Las fuentes de la inspiración heideggeriana quedan explicitas en una carta al teólogo Rudolf Bultmann: 
+
+>“Todo esto en un método y con el hilo conductor de la idea de filosofía científica tal como la ha fundado Husserl”.  
+“[…] mi trabajo se orienta a una radicalización de la antigua ontología y a la vez a una universal desconstrucción (Ausbau) de la misma en relación con la región de la historia. El fundamento es esta problemática está configurado por el punto de partida en el ‘sujeto’ en el sentido correctamente entendido de ‘Dasein humano’ de modo que con la radicalización de este enfoque adquieren a la vez su derecho los auténticos motivos del idealismo alemán. Agustín, Lutero, Kierkegaard son filosóficamente esenciales para la elaboración de una comprensión más radical del Dasein. Dilthey para la interpretación del ‘mundo histórico’. Aristóteles – la escolástica para la estricta formulación de ciertos problemas ontológicos. Todo esto en un método y con el hilo conductor de la idea de filosofía científica tal como la ha fundado Husserl. No han dejado de tener influencia también las investigaciones lógicas y científico-teóricas de Heinrich Rickert y Emil Lask”.
+
+Aún así, o justamente por esto, Heidegger considera que el método fenomenológico siempre puede volver a ponerse en cuestión, o que siempre puede acrecentarse su significación por así decirlo. De hecho, en su escrito “Mi camino en la fenomenología” (1963), afirma que _la fenomenología no es una corriente_ sino una posibilidad de corresponder a la interpelación de lo que se ha de pensar. Se trata de una posibilidad que siempre puede ser captada de nuevo y más originalmente: 
+
+> “Si la fenomenología es experienciada y conservada de esta manera, entonces ella puede desaparecer como nombre en favor del asunto del pensar cuya patencia permanece como secreto” (GA 14, 101). 
+
+Heidegger así, siempre pretende renovar la fenomenología, y reconducir la interrogación a su __sentido originario__, cosa que afirma explicitamente, por ejemplo, en el seminario dictado en Zähringen en 1973, es decir, tres años antes de su muerte. En la lección final se refiere a la necesidad de ocuparse del _sentido originario de la fenomenología_ y a la necesidad de distinguir el camino que se recorre en la filosofía del método que se sigue en la ciencia, y afirma: 
+
+> “Así entendida, la fenomenología es un camino que conduce ante… y se deja mostrar aquello ante lo cual él es conducido. Esta fenomenología es una fenomenología de lo inaparente (eine Phänomenologie des Unscheinbaren)” (GA 15, 399). 
+
+Ludwig Landgrebe sostuvo que entre la fenomenología genética y las posiciones de Ser y tiempo existe “una relación de convergencia y recíproca complementación”.  Así, la historia de cada subjetividad trascendental singulariza al modo del ser-en-cada-caso-mío (Jemeinigkeit), la familiaridad con las propias capacidades representa el nivel más elemental del comprender, la condición de estar arrojado en ellas define el “ahí”, y el ejercicio de ellas se experiencia ante todo en un sentir el propio cuerpo como nivel elemental de la disposición afectiva (Befindlichkeit). 
+
+---
+
+@Reflexión: Comenzamos pensando la relación entre Husserl y Heidegger a la luz de un texto husserliano de 1931: _Consideraciones a partir de la pretendida pregunta por el ser del ente_. Para Husserl el camino no pasa por realizar una hermenéutica de la finitud humana, sino por esbozar el desarrollo de la constitución de los horizontes, y más especificamente, del horizonte universal, del Mundo como Horizonte de todos los Horizontes. 
+
+Ahora bien, ¿cómo ha de entenderse el desarrollo histórico para Husserl? Sabemos la respuesta usual: el desarrolló de la historia es el desarrollo del acrecentamiento de todos los horizontes, y más especificamente, del acrecentamiento del horizonte universal. Logramos ampliar cada vez más los contenidos del horizonte universal, a la vez que este sigue sosteniendose en su momento de unidad específico. 
+
+Pero en la posmodernidad algo se pierde. La pretendida muerte de los grandes relatos implica que ya no hay momento de unidad para la ampliación siempre constante del horizonte universal. He aquí la contradicción de la modernidad tardía, para decirlo con Marcuse, que Husserl no llegó a ver. Por otro lado, es cierto que reflexiones _in nuce_ respecto a esta problemática aparecen en Krisis (habría que esperar que M. encuentre en Hua XXIX textos específicos relativos a esta problemática, aunque es más bien dudoso que haya material de este estilo; de todas formas, el riesgo de la perdida del _telos_ específico de la humanidad occidental quizá sí está tematizado con más profundidad en esos textos que en Krisis; de encontrarlos, sería un golazo para la tematización del significado ya no solo de la ciencia, sino de la filosofía posmoderna, y de la filosofía analítica como heredera de la filosofía posmoderna en este sentido). Así pues, la paradoja actual puede ponerse en estos términos: 
+
+- El horizonte universal se sigue ampliando. 
+- El momento de unidad del horizonte universal se ha perdido. 
+
+
+
+
+Este paralelo es extendido a temas posteriores al viraje por Klaus Held, quien llama la atención en numerosos artículos sobre “la oculta continuidad del pensamiento fenomenológico sobre el mundo de la vida en el pasaje de Husserl a Heidegger”.  Más recientemente, en virtud de que la separación de caminos equivale más a una crítica inmanente que a un rechazo del programa trascendental, Steve Galt Crowell observa que “se hace posible proyectar un acercamiento significativo entre Husserl y Heidegger, un acercamiento que no deja a ninguno de los dos sin revisar”.  
+	Con este espíritu, procuro analizar algunas convergencias en torno de alguns temas capitales. En primer lugar, en consonancia con la noción heideggeriana de viraje, se procura mostrar un proceso paralelo en Husserl. El segundo tema es la instancia última a la que retroceden ambos fenomenólogos en su búsqueda de una adecuada raíz primera de la que emanan sus investigaciones. Pueden encontrarse varias coincidencias en la caracterización de este punto de referencia final. El tercer tema es el de la latencia y la patencia que Husserl describe en relación con el mundo y Heidegger explicita en conexión con el ser. Nuevamente es posible poner de manifiesto una complementariedad en la caracterización de aquello que se sustrae a nuestra captación inmediata. La consideración del viraje, junto con los restantes temas, conduce al examen de la historia en ambos pensadores. En el análisis de todas estas cuestiones se expone primero la visión de Husserl y luego la de Heidegger, y como tercer paso se señalan puntos de coincidencia. 
+
+
+SIGLAS
+
+GA                   Martin Heidegger, Gesammtausgabe, Frankfurt am Main (con indicación 
+                         de tomo y página).
+
+Hua                  Edmund Husserl, Gesammelte Werke – Husserliana I-XLII, Dordrecht
+                         (con indicación de tomo y página).
+
+HuaM VIII      Edmund Husserl, Späte texte über die Zeitkonstitution (1929-1934). Die C-
+                        Manuskripte, Husserliana-Materialien VIII, Dordrecht (con indicación de
+                        página).
+
+HuaD II           Eugen Fink, VI. Cartesianische Meditation. Teil I: Die Idee einer
+                        transzendentalen Methodenlehre. Teil 2: Ergänzungsband, Husserliana-
+                        Dokumente II, Dordrecht/Boston/London (con indicación de tomo y
+                        página).
+
+I. EL VIRAJE
+
+Un primer orden de convergencias se da en relación con un viraje o giro. El viraje es la respuesta en cada caso a una interpelación o motivación. Es la motivación de un devenir genético de índole intersubjetiva y teleológica en el caso de Husserl, y la interpelación del ser en el caso de Heidegger. La teleología, examinada por Husserl en relación con el autotraspasamiento de la egología y en el marco de la fenomenología genética, no anula la primera fenomenología de carácter estático sino que la supone. Y la interpelación del ser tampoco invalida la dirección primera seguida por Heidegger, es decir, la que va del hombre al ser porque solo esa dirección primera permite colocarse en y esclarecer la dirección del ser al hombre. Un isomorfismo básico se da en torno de la correlación entre un polo del que se tiene una experiencia y un polo que tiene la experiencia, y puede extenderse a otras cuestiones. Comienzo analizando en qué medida puede hablarse de un viraje en el pensamiento de Husserl, es decir, de lo que en la bibliografía se ha dado en llamar el “nuevo Husserl”.             
