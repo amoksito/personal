@@ -1,0 +1,1068 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>Alfred Schutz</title></head><body><article class="markdown-body"><hr />
+<p>title:  &lsquo;Alfred Shutz&rsquo;<br />
+author: <br />
+- name: F.l. Pogson<br />
+-   affiliation: University of Somewhere<br />
+tags: [fenomenología, sociología]<br />
+  &hellip;</p>
+<h1 id="alfred-schutz"><a name="user-content-alfred-schutz" href="#alfred-schutz" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Alfred Schutz</h1>
+<p>Alfred Schutz intentó relacionar el pensamiento de Husserl con el <strong>mundo social</strong> (social world) y las <strong>ciencias sociales</strong>. Su <strong>Fenomenología del Mundo Social</strong> provee los fundamentos filosóficos para el pensamiento sociológico de Max Weber, y para la economía que conocía gracias a sus contactos con sus colegas de la <strong>Escuela Austriaca de Economía</strong>. Schutz escapa a la <em>Anschluss</em> de Austria de Hitler, y emigra a los EEUU en 1939, donde desarrolla su pensamiento todavía más en relación con las ciencias sociales, el pragmatismo americano, el empirismo lógico y varios otros campos como la música y la literatura. Su trabajo ha sido influyente en nuevos campos como la ethnometodología y el análisis conversacional. </p>
+<h2 id="life-and-influence"><a name="user-content-life-and-influence" href="#life-and-influence" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Life and Influence</h2>
+<p>Nace en Viena (1899-1959), es parte de una división de artillería del Ejercito Austriaco durante la I G.M. y sirve en el frente de Italia, antes de retornar a Austria para estudiar leyes, ciencias sociales y negocios con figuras como <strong>Hans Kelsen</strong> y <strong>Ludwig von Mises</strong>, también formando parte del <strong>Círculo de Mises</strong>, uno de los tantos círculos de ese la Viena de ese entonces (siendo el más famoso el círculo de Schlick). Allí conoció a figuras como los economistas Gottfried von Haberler, Friedrich A. von Hayek, Fritz Machlup, Oskar Morgenstern, el filósofo Felix Kaufmann, y el politólogo Eric Voegelin.</p>
+<p>While continuing to pursue his academic interests, in 1927 Schutz was named executive officer of Reitler and Company, a leading Viennese banking firm with international business relations, and thus he commenced a life-long pattern that led Edmund Husserl to describe him as “a banker by day and a philosopher by night.”</p>
+<p>Los intereses académicos de Schutz estuvieron signados, desde el comienzo, por su interés en <strong>Max Weber</strong>, quien era inmensamente popular entre los círculos vieneses, y que había llevado a cabo varias lecturas en Viene en el verano de 1918. Sin embargo, Schutz creía que la obra de Weber descansaba en supuestos tácitos, no examinados, resultado de su falta de preocupación por problemáticas metodológicas -problema que, sin embargo, no tenia influencia directa en su tratamiento específico de las problemáticas sociológicas. Así, entre 1925-1927 Schutz intenta utilizar los escritos de Bergson sobre filosofía de la conciencia y del tiempo inmanente para clarificar nociones como significado, acción e intersubjetividad: el resultado de estos esfuerzos se publico en el escrito titulado <em>Life Forms and Meaning Structure</em>. Insatisfecho con sus resultados, y motivado por Felix Kaufmman, descubre la relevancia de la fenomenología del tiempo inmanente de Edmund Husserl (1859-1939). Bajo su influencia produce, entonces, la que será su principal obra filosófica <em>The Phenomenology of Social World</em> <a href="1932">Der sinnhafte Aufbau der sozialen Welt: eine Einleitung in die verstehende Soziologie</a>, obra alabada por el propio Husserl. El resto de la década del &lsquo;30 lo invierte intentando llevar a termino su fenomenología con el pensamiento económico de Mises y Hayek. Además, y anteriormente a su encuentro con el pragmatismo americano, desarrollo un manuscrito sobre la personalidad en el mundo social poniendo el acento en los elementos pragmáticos del mundo de la vida cotidiana. </p>
+<p>La <em>Anschluss</em> lo agarra desprevenido en un viaje de negocios en Paris, que lo separa de su familia durante tres meses, pero a la que logra hacer emigrar a Francia eventualmente. Como abogado internacional y hombre de negocios consiguió, de hecho, asistir a numerosos intelectuales a escapar de Austria, pero al final, y debido al avance del frente occidental nazi, tiene que volver a emigrar él mismo a los EEUU (en 1939). </p>
+<p>Allí continua asistiendo a sus compañeros europeos, y trabajando para Reitler and Company, e incluso colabora con los EEUU mediante reportes a propósito de asuntos económicos de Austria y Alemania al Board of Economic Warfare. También coopera con <strong>Marvin Farber</strong> en la fundación de la Sociedad Internacional de Fenomenología (International Phenomenological Society), y en la institucionalización e edición de Philosophy and Penomenological Research. En 1943 comienza a enseñar sociología y filosofía en The Graduate Faculty of New School for Social Research, y en 1952 obtiene la cátedra del Departamento de Filosofía. Durante esta época mantiene una amplia correspondencia con Farber, Aron Gurwitsch, Fritz Machlup, Eric Vogelin y Maurice Natanson, su estudiante graduado de 1951 a 1953. Sin embargo, solo la correspondencia con Gurwitsch, bajo el título <em>Philosophers in Exile: The Correspondence of Alfred Schutz y Aron Gurwitsch, 1939-1959</em> ha sido publicada. Mientras está en EEUU, Schutz publico una importante cantidad de artículos, tocando temas como la explicitación y la crítica del pensamiento husserliano, el examen de la obra de filosofos americanos como <strong>William James</strong> y <strong>George Santanyana</strong> y filósofos continentales como <strong>Max Scheler</strong> y <strong>Jean-Paul Sartre</strong>, desarrollos respecto a sus propias posiciones sobre las ciencias sociales, la temporalidad, el lenguaje, las realidades-múltiples, la responsabilidad y el simbolismo; e involucrándose también con problemáticas político-sociológicas respecto a los extranjeros, los ciudadanos bien informados y la igualdad; y tratando temas de literatura y música.</p>
+<p>Varios autores continuaron la tradición de Schutz en fenomenología y sociología. <strong>Maurice Natanson</strong> enfatizo la tensión entre lo individual, lo existencial y lo social, que otorgaría ciertas dimensiones de anonimato a la experiencia cotidiana. <strong>Thomas Luckmann</strong>, que es co-autor de la última publicación (póstuma) de Schutz, desarrollo las implicaciones del pensamiento de Schutz para la sociología del conocimiento y señalo las diferencias entre la ciencia y el mundo de la vida, así como la importancia del lenguaje, el simbolismo, y el orden social de la realidad. Mientras <strong>John O&rsquo;Neill</strong> intento fusionar el pensamiento de Schutz y Merleau-Ponty poniendo el foco en el cuerpo vivo, comunicativo; <strong>Richard Grathoff</strong> ha investigado la experiencia de normalidad dentro del contexto situado de un milieu. ____ desarrollo las dimensiones pragmáticas del pensamiento de Schutz y muchas de sus implicaciones políticas y económicas, y Lester Embree clarifico su tipología de las ciencias. Fred Kersten expandio sus insights estéticos. Tomando prestadas temáticas de Schutz, Harold Garfinkel desarrolló la etnometodología, y George Psathas, siguiendo al último, ha jugado un rol fundamental en el inicio de la nueva disciplina del análisis conversacional. </p>
+<h2 id="the-phenomenology-of-the-social-world"><a name="user-content-the-phenomenology-of-the-social-world" href="#the-phenomenology-of-the-social-world" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The phenomenology of the Social World</h2>
+<p>In his principal work, Schutz placed three chapters of philosophical discussion between introductory and concluding chapters that discussed the social scientific positions his philosophy attempted to engage. In the initial chapter Schutz praised Max Weber&rsquo;s views on value-freedom in social science and the autonomy of science vis-à-vis other activities (e.g. politics), and he commended Weber&rsquo;s methodological individualism and ideal-type methodology. In addition, he applauded Weber&rsquo;s refusal to reduce the social sciences to the natural sciences, while allowing their ideal-typical results to be testable for adequacy. However, Schutz also supplemented Weber, pointing out how interpretation was involved even in selecting an experience out of one&rsquo;s stream of experience and highlighting how the meaning of an action to an actor depended upon the project guiding the extended temporal process of the sub-acts leading to its realization.</p>
+<p>These initial criticisms of Weber required Schutz to develop his own theory of meaning and action, beginning with Husserl&rsquo;s study of the consciousness of internal time, in particular consciousness&rsquo;s capacity to capture reflectively and distinguish lived experiences, which at first appear as undefined phases melting into each other. Schutz had appropriated this notion of flowing consciousness, or duration, from Bergson, on whom he had relied in the manuscripts later published as Life Forms and Meaning Structure. Those manuscripts, for analytic purposes, split the ego, indivisible in its lived experience, into ideal-typical constructs of various life forms, that included the “I” living in duration, remembering, acting, thinking, and relating to a “Thou.” Though Schutz never made explicit his reasons for not publishing those earlier manuscripts, Helmut Wagner rightly speculated that he was ill at ease since one could only have access to duration through acts of memory, which, of course, constituted a life-form entirely separate from duration itself. As a result of this methodology relying on distinct ideal-types, duration began to appear as an inaccessible Ding-an-sich. Husserl&rsquo;s account of the consciousness of inner time remedied just this problem by carefully describing how the stream of duration was changed at every moment into a remembered having-just-been-thus, as the primal impression passed into into primary remembrance, or retention. The continuum extending backward from the now of the primal impression through its retentions formed a “specious” present, to which the reflective acts of secondary remembrance, that is, recollection or reproduction, turned, differentiating one experience from another. In sum, Husserl&rsquo;s phenomenological description of experience uncovered the process of retention that bridged the duration/(reflective) memory gap that had bedeviled Schutz&rsquo;s earlier efforts insofar as he had relied on an ideal-typical methodology, which prevented insight into what goes on within conscious processes themselves.</p>
+<p>Schutz, though, turned the Husserlian account of temporality in the direction of an action theory, demarcating levels of passive experience (e.g. bodily reflexes), spontaneous activity without a guiding project (e.g., acts of noticing environmental stimuli), and deliberately planned and projected activity, known technically as “action” (e.g., writing a book). In planning an action to be realized in the future, one relies on reflective acts of “projection,” like those found in reflective memory, only now oriented in a future as opposed to past direction. Through such reflectivity, one imagines a project as completed in future perfect tense, that is, what will have been realized after one&rsquo;s acting, and this project, also of central importance for Martin Heidegger and the pragmatist tradition, establishes the “in-order-to motive” of one&rsquo;s action. By contrast, one&rsquo;s “because motives” consist in the environmental, historical factors that influenced the (now past) decision to embark upon the project and that can only be discovered by investigating in the “pluperfect tense,” that is, exploring those past factors that preceded that past decision.</p>
+<p>Schutz&rsquo;s distinctions here are relevant to contemporary debates about whether freedom is compatible with determinism since from the perspective of the lived in-order-to motive, one experiences oneself as free and morally responsible, but from the perspective of examining one&rsquo;s because motives after completing one&rsquo;s action, one correlates, as an observer of oneself, the choice of the project with its historical determinants. Of course, Schutz, working within the parameters of Husserl&rsquo;s non-naturalistic account of consciousness, would have conceived such determinants not so much as empirico-mechanical causes but rather as influences discoverable through an interpretive process, associating earlier events with the later ones they seem to have influenced. Schutz&rsquo;s position comes closest to the roughly compatibilist outlooks of P.F. Strawson and Thomas Nagel, who distinguish between the participant and observer attitudes prior to theoretical discussions and who align the participant attitude with freedom and the observer attitude with determinism. Schutz, however, contributes the unique insight that these attitudes take place within distinctive temporal frameworks, oriented toward the future or the past.</p>
+<p>Schutz&rsquo;s account of the temporal framework of motivation permitted criticism of Weber&rsquo;s view that one could orient one&rsquo;s action to the past behavior of others, since, while such behavior might have served as the because motive of an action, one could not aim at affecting another&rsquo;s already completed action. Similarly, failure to appreciate temporality often leads to misinterpretations of action, as when one assumes that the outcome of an act may have been its motive without considering the actor&rsquo;s in-order-to motive, which due to unforeseen events may have been adjusted or may have led to results contrary to those intended. Likewise, one can interpret an economic action after the fact as less than rational without taking sufficient account of the limited information that was available to the actor at the time of deciding to act and that might make her action seem perfectly rational. Moreover, the fact that one&rsquo;s own temporal stream of consciousness never completely coincides with that of another, whose sequence of events and intensity of experience inevitably differs from one&rsquo;s own, places limits on one&rsquo;s understanding of another. As a consequence, the objective meanings of language, defined in dictionaries as invariant regardless of users, also bear subjective connotations for language users due to their unique histories of linguistic experience, even though for practical purposes of communication they are able to set aside such differences. For instance, one would have to consider in depth Goethe&rsquo;s works as a whole to understand what he meant by “demonic.” Schutz&rsquo;s basic point in all these examples involves getting behind constituted meanings to the temporal processes by which actors build up the meaning of their own actions — a meaningful build-up accentuated by the German title of his Phenomenology of the Social World (Der sinnhafte Aufbau der sozialen Welt).</p>
+<p>In addition to this account of consciousness, motivation, and action, he examined the structure of the social world, including Consociates who share the same time and spatial access to each other&rsquo;s bodies, Contemporaries with whom one shares only the same time, and Predecessors and Successors with whom one does not share the same time and to whose lived bodies one lacks access. Consociates, present to each other physically, partake of each other&rsquo;s inner time, that is, the on-rolling life of the other, grasp the building up of the other&rsquo;s experience, and live in a We-relationship that entails “growing older together.” While Consociates revise their types of each other immediately, one must proceed more inferentially with Contemporaries, Predecessors, and Successors, constructing ideal types based on letters or reports and running greater risks of misunderstanding, depending on the degree of anonymity of the person to be understood. One could say, then, that Weber&rsquo;s method of ideal type construction, illustrated in his sociological account of the Protestant at the origins of capitalism, is not really that foreign to the everyday life-world in which actors beyond the Consociate level continually relate to each other via such type construction. Human actors in everyday life already adopt toward each other the attitudes of social scientists.</p>
+<p>Schutz conceived his work as developing a “phenomenological psychology” of “inner experience” and focusing on the invariant features of the life-world toward which theoreticians, including social scientists, turn reflectively. Although Jürgen Habermas criticizes Schutz&rsquo;s account of the life-world for being “abridged in a culturalistic fashion” and not addressing institutional orders and personality structures (Habermas 1987, 2:126–132), it would seem that Schutz himself delimits his own work in just this fashion. According to him, social scientists develop constructs, ideal types, of the meaning-contexts of life-world actors, and they test these types to determine if they are causally adequate, that is conforming to past experience, and meaning adequate, that is, consistent with whatever else is known about the actor. Responding to Mises&rsquo;s critique that Weber&rsquo;s ideal-types are too historically specific, Schutz suggested that the later Weber&rsquo;s ideal types in Economy and Society attain a generality comparable to that of Mises&rsquo; own economic theory, which itself could be interpreted as presenting ideal-typical descriptions of the behavior of economic agents. The later Weber&rsquo;s types depict the invariant subjective experiences of anyone who acts within the economic framework as defined by the principle of marginal utility, that is, choosing to maximize satisfaction.</p>
+<ol>
+<li>Extensions</li>
+</ol>
+<p>3.1 The Bergson Writings<br />
+Schutz&rsquo;s manuscripts on Bergson, produced from 1925 to 1927 and finally published in English in 1982, illuminate his subsequent works, with which they share the general purpose of “the grounding of the social sciences in the Thou experience.” (Schutz 1982, 34) In reaction to positivistic approaches of the Schlick Circle (in which Felix Kaufmann participated) that reduced experience to what the method of natural scientific observation found tolerable, Schutz sought to give an account of the life-form of pre-scientific experience preceding conceptual-categorical comprehension, the “highest and most powerful life-form” (Schutz 1982, 53). Of course, by moving in this direction, he encountered the problem, faced by Georg Wilhelm Friedrich Hegel, Wilfrid Sellars, John McDowell, Robert Brandom, and others, namely, how it is possible to access the pre-conceptual without conceptualizing it. Hence, he acknowledged that his work is “in conflict with its material” since it “is forced to resort to conceptual formulations” (Schutz 1982, 70). This problem parallels the problem of reaching the life-form of the present unfolding of experience (duration) since one can only speak of it by arresting its flow, distinguishing its moments, and thus remembering what has lapsed — but then one is in the new life-form of memory. Although this gap between present duration and memory prompted his turn to Husserlian phenomenology, the problematic itself highlighted for him the pervasiveness and hiddenness of interpretive activity as one moves between interpretive frameworks — a principal theme of all his later work. He took notice of this theme when he frequently pointed out how one&rsquo;s reconstitution of a past experience in memory varied according to the interests of the present from which one remembered the past. Indeed a favorite example from Bergson&rsquo;s work involved an actor reflecting upon a prior process of choosing and interpreting it as if it had been a choice between two clearly defined possibilities, whereas in fact the process often oscillated between several options, retaining, reproducing, comparing, and modifying them in succession. In general, Schutz concurred with Bergson on such notions such as attention to life, planes of consciousness, the body as the intersection of outer and inner temporality, music as the model of duration, and multiple types of ordering, but rejected his bio-evolutionary theory, vitalism, and the idea of a supra-personal elán.</p>
+<p>3.2 The Social Sciences<br />
+Although Schutz defended Weber against Mises, he agreed with many basic premises of Mises and the Austrian tradition that focused on the subjective preferences of the purchaser conferring value on objects instead of explaining value as the result of objective processes such as production costs or labor time invested. He also shared Mises&rsquo;s suppositions about value-freedom in economic science, the need to describe rather than evaluate preferences, and the instrumental task of science, namely, of showing how to achieve ends rather than assessing their value. Since Mises considered all acting economic insofar as any consumer choice involved maximizing satisfaction in the widest sense, he opposed the narrow type of the homo economicus, modeled on the businessperson driven solely by economic motives at the expense of all others. Schutz, however, posited the life-world with its wide diversity of motivations at the base of economic theory. He conceived such theory as adopting a reflective perspective governed by the principle of marginal utility, namely, that ideal types ought to be constructed as if all actors “had oriented their life-plans to realize the greatest utility with minimal cost.” (Schutz 1964, 87) Besides thus resuscitating a version of homo economicus, Schutz insisted that economists study purposive-rational actions, which, in Weber&rsquo;s sense, involved a reflective comparison of alternative projects before adopting one as an in-order-to motive. In addition, he classified the sense of uneasiness that Mises described as prompting the search for satisfaction under the category of because motives; one first adopts an rationally determined economic project and in retrospect discovers the preceding dissatisfaction. To understand the difference between conceiving all action as economic and conceiving economic action as one type of action within an more encompassing life-world, one might compare Mises with Schutz with reference to a problem raised within contemporary discussions of collective action, namely, how traditional non-economic values (e.g., those of politics or ethics) ought to intersect the market. Mises would countenance economic agents registering their values economically, that is, by deciding to purchase or not (e.g. as a protest against polluting companies), thereby converting all values into economic ones, whereas Schutz would call for a process negotiating the boundaries between different life-world value domains.</p>
+<p>In “Concept and Theory Formation in the Social Sciences,” Schutz addressed the broader issue of the relationship between philosophy and the social sciences in general. In that essay, Schutz responded to Ernest Nagel&rsquo;s positivistic view that the social sciences should make use of natural scientific methods, identifying evidence with sensory observable data and criticizing the Weberian method of “understanding” as appealing to uncontrollable and unverifiable introspection. Schutz agreed with Nagel on several counts, namely that social scientists needed to validate theoretical beliefs, that lack of predictability in the social sciences did not disqualify their scientific character, and that Weber would have been wrong if his method of “subjective interpretation” implied empathy with unobservable, introspective states. The problem was, though, that the natural scientific approach to the social sciences, insofar as it separated verifiable observable behavior from unverifiable inner states (purposes, emotions), seemed to play on the map drawn by Descartes who divorced body from mind and allowed only statements about the former to be scientifically verifiable. Further, the natural scientific approach depended on a basic presupposition since without first examining the object of social science — social reality, in Schutz&rsquo;s terms — one would be simply presupposing that the methods of the natural sciences were appropriate to its study. Therefore, Schutz attempted first to clarify social reality, described in depth by his own phenomenology of the social world, and to indicate how actors sustain that reality by understanding each other&rsquo;s in-order-to motives in typical terms (e.g., going to school, making a purchase, marrying). Such mutual understanding takes place without either somehow or other penetrating into the other&rsquo;s private, inner sanctum, or reducing the other to the status of animal organism responding to stimuli. Given this account of social reality, in which actors give meaning to their world, as opposed to physical reality whose objects (e.g., electrons, quarks) do not interpret their world, Schutz argued that the appropriate social scientific method involved developing constructs of everyday actor&rsquo;s constructs. Social scientific constructs, ideal types in Weber&rsquo;s sense, aimed at capturing the subjective meaning of the actor, that is, according to Weber&rsquo;s intentions, the meaning of the actor as opposed to the social scientist and not some introspective inner process. Schutz conceived statistical and other formulations of social scientific laws as a legitimate kind of intellectual shorthand, always presupposing the meaningful activity of the individual social actor, the “forgotten man” of the social sciences (Schutz 1964, 6–7). To ensure the kind of validation that Nagel sought, mistakenly though, by restricting himself to sensory observable data, Schutz proposed that social scientists displace their everyday practical interests in favor of a guiding interest in accurate scientific description and observe postulates of logical consistency and adequacy to the experiences described.</p>
+<p>In order to elucidate the meaning of rational action, Schutz hypothesized what a rational actor would have to know, even though such completely rational actions might never be realized in everyday life. Such an actor would have to know: an end&rsquo;s relationship with other ends, the consequences and by-products of realizing an end, the means suitable for the end, the interaction of such means with other ends and means, and the accessibility of those means. In addition, the rational actor would need to understand: her interactors&rsquo; understanding of all the previous factors, the interpretation of her act by others, the reactions of other people and their motivation, and the useful categories she had already discovered in the social world. Although social scientists might use such models of completely rational action to assess the rationality of everyday actors, Schutz cautioned social scientists that if their task were to describe life-world actors, they also needed to be wary of replacing the viewpoint of everyday actors with a fictional, non-existing world constructed by scientific observers. In fact, a central point of discussion in the published correspondence between Schutz and Talcott Parsons concerned the subjective viewpoint of the actor, whose sub-acts, for example, could not be adequately understood without comprehending the actor&rsquo;s overarching project, whose temporal span is at first accessible only to that actor. Finally, it should be noted that Schutz himself produced two pieces of applied research in which he constructed ideal types of the Stranger and the Homecomer, taking account of what their experiences meant to them instead of what social scientists or others might think they meant.</p>
+<p>3.3 Other Philosophies<br />
+Although references to philosophers in the pragmatist tradition, such as John Dewey and George Herbert Mead are scattered through Schutz&rsquo;s writings, it was to William James that he devoted his first full-length essay after arriving in the United States. Briefly alluding to the methodological differences between Husserl and James, he emphasized two points where the “great masters” converged: the stream of thought and the theory of fringes. Both thinkers stressed that personal consciousness involves no multiplicity of elements needing to be reunited, but rather a unity from which one separates out components, and they each examined the modifications that reflection introduces into the lived stream, converting an “I” into a “Me” or uncovering the workings of intentionality. Further, Husserl&rsquo;s idea that the kernel of meaning distinguishing an object stood out against the unthematized network of relationships that makes up its horizon parallelled James&rsquo;s belief that topics have their “fringes.” Such fringes connect a topic with other experiences, such that, for instance, one does not hear merely “thunder,” but “thunder-breaking-in-upon-silence-and-contrasting-with-it.” Similarly, the Jamesian idea about grasping as a unity what must be learned through a many-stepped processes, such as the Pythagorean theorem, could be translated into the Husserlian terminology regarding the monothetical grasping of polythetic processes. Likewise, James&rsquo;s discussion of focusing on an object within a broader topic resembled Husserl&rsquo;s view that one could discern a noema, that is, a perspectival aspect through which a thing constituted of many such aspects presented itself.</p>
+<p>Another American philosopher to whom Schutz dedicated an entire essay was George Santayana, whose Dominations and Powers he reviewed. While most of the essay was expository, Schutz praised Santayana&rsquo;s effort to base politics on a philosophical anthropology and his insights into the enslaving potential of technology. However, Schutz, no doubt convinced by Mises&rsquo;s positive assessment of economic activity, resisted Santayana&rsquo;s reduction of it to domination. Likewise, as a phenomenologist opposed to a Santayana&rsquo;s naturalistic founding of spirit on the physical order of nature, Schutz dissented from a conviction derived from this naturalism, namely, that democracy could solve it problems only by returning to the “generative order” of agriculture.</p>
+<p>Besides these interchanges with American philosophers, Schutz (later in his career) interpreted the work of Max Scheler and (earlier) engaged thoroughly his treatment of intersubjectivity, a topic that Schutz insisted was to be treated within the natural attitude, in which one never doubted the existence of others. Schutz agreed with Scheler&rsquo;s belief that the “We” is given prior to the “I” — a position that the latter defended on the basis of the psychology of children and cultures less accustomed to self-reflection. Schutz supported this priority, however he did so on the grounds that while living in one&rsquo;s acts in the natural attitude and living also in the other&rsquo;s present experience as it unfolds, one at first does not clearly distinguish one&rsquo;s own thoughts from others&rsquo;. Nevertheless, as soon as one reflects on his own stream of consciousness — and children and cultures may develop this capacity for self-reflection later — he becomes aware that his experiences are his own. Schutz found plausible Scheler&rsquo;s belief in the inner (indubitable) perception of the other, if “inner perception” refers to anything connected with mental life or if one locates the experience of living in the vivid simultaneity of the “We” within his own conscious stream, as Schutz believed possible. However much in that vivid simultaneity one might be unable to doubt the other&rsquo;s existence, one could still be mistaken about specific thoughts of the others, since by belonging to the other&rsquo;s stream of consciousness these thoughts share the dubitability characterizing outer perceptions, likewise transcendent to one&rsquo;s stream of experience.</p>
+<p>Another figure, more or less within the phenomenological tradition, whose views on intersubjectivity Schutz examined and criticized, was Jean-Paul Sartre, particularly the Sartre of Being and Nothingness. In “Sartre&rsquo;s Theory of the Alter Ego,” Schutz elucidated Sartre&rsquo;s attempt to develop an extra-empirical, real communication with the other that avoids the extremes of an empiricist intersubjectivity beginning with the other&rsquo;s body and an idealist reduction of the other to a series of presentations. After explaining Sartre&rsquo;s differences regarding intersubjectivity with Husserl, Hegel, and Heidegger, Schutz laid out Sartre&rsquo;s existential account of how the other is given as a subject through the Look and how one can in turn objectify the other by returning the gaze. Although Sartre had intended to describe how one&rsquo;s body is given to the other, he instead portrayed how the other&rsquo;s body is given to oneself, assuming that such descriptions were reversible. Schutz, who did not believe that the problem of intersubjectivity could be addressed adequately within the transcendental sphere, applauded Sartre&rsquo;s rejection of of Husserl&rsquo;s transcendental approach to intersubjectivity; however, Sartre&rsquo;s emphasis on the other as a center of activity reflected a continuing Husserlian influence. The main problem, though, with Sartre&rsquo;s doctrine was that its starting point in a mutual looking, by which each subject reduces the other to an object, precluded any possibility of a relationship between the I-subject and other-subject. Further, Schutz wondered how Sartre would know that the other&rsquo;s body was given to him in the same way that his body was to the other if the other&rsquo;s subjectivity escaped his “I.” Moreover, Schutz acknowledged that the other&rsquo;s interests might not coincide with his own, but he failed to see how this fact entailed that either the other or he reduce each other to a utensil. Instead, he pointed to the “mutual tuning-in” to be found in making music together and in language as proof that subjects interact as “co-performing subjectivities” and that mutual interaction in freedom better describes intersubjectivity than Sartre&rsquo;s practical solipsism.</p>
+<p>3.4 Applications<br />
+In 1945, Schutz published an essay, “On Multiple Realities,” that extended the theory of The Phenomenology of the Social World and anticipated later essays applying that theory. While he reiterated earlier views about levels of activity, Bergsonian tensions of consciousness, and the structure of the social world, his work took a decidedly pragmatic twist, emphasizing “working” (Wirken) as involving bodily movements as opposed to the covert performances of mere thinking. In manuscripts in the 1930s and after The Phenomenology of the Social World, Schutz had already turned in this pragmatic direction. In “On Multiple Realities,” he enlarged upon the “world of working” by demonstrating how reflection dissolves the self unified in lived action into partial, role-taking selves and by expanding Mead&rsquo;s idea of the “manipulatory sphere” to include worlds within “potential reach,” either restorable (from the past) or attainable (in the future). This “world of working” constitutes the paramount reality, organized in its interests in the face of the fundamental anxiety that derives, as it did for Heidegger, from the inescapability of one&rsquo;s own death. Following Husserl&rsquo;s views on how consciousness can modify its stances toward reality and de-ontologizing James&rsquo;s sub-universes of reality, Schutz developed the notion of various finite provinces of meaning. One enters any of these provinces, such as those of phantasms, dreams, the theater, religious experience, or theoretical contemplation, by undergoing different types of epoché, analogous to the phenomenological protoype, as when one slips into a daydream, falls asleep, watches theater curtains open, commences a ritual, or assumes the scientist&rsquo;s role. Each province contains its distinctive logical, temporal, corporal, and social dimensions, and movement between the provinces only becomes paradoxical (e.g., asking how phenomenologists are able to communicate their private findings publicly) if one conceives the provinces as ontological static realms to which one transmigrates as a soul to another world. Rather the provinces are permeable, and one adopts the attitudes of scientist or religious believer within the world of working as if it were seen through by another viewpoint, all the while that its communicative activities subtend these other provinces. There is something paradoxical, though, about describing one&rsquo;s dreams or theorizing about religious experience since to give an account one must absent oneself from the province for which one accounts, and Kierkegaard&rsquo;s notion of indirect communication and various postmodern critiques of theory address themselves to just such paradoxes.</p>
+<p>The essay on multiple realities underpins Schutz&rsquo;s theory of signs and symbols in “Symbol, Reality, and Society,” published almost ten years later. Synthesizing the notion of potential reach from the earlier essay with Husserl&rsquo;s concept of appresensation, namely that one element of a pair refers to another not directly given in experience, Schutz describes how agents overcome whatever transcends them. Hence they leave marks to bring within reach what they leave behind (e.g., breaking a twig to remind oneself to turn when one returns) or follow indications, that is, regular connections not of their making (e.g. smoke indicating a not yet visible fire), to bring within their knowledge what lies beyond it. Signs, however, appresent in an intersubjective setting the meanings of one person to another, but an insuperable transcendence still remains insofar as the each one&rsquo;s stream of consciousness and therefore meanings are never identical with another&rsquo;s. Finally, through symbols, developed within groups, something given within everyday reality appresents a reality belonging to a entirely different province of meaning, an ultimate transcendence (e.g., the stone where Jacob dreamed of a ladder to heaven memorializes God, accessible within the religious province of meaning).</p>
+<p>Schutz dealt with this theme of language in other contexts, comparing Husserl&rsquo;s distinction between prepredicative (prepropositional) and predicative levels with Kurt Goldstein&rsquo;s separation, based on studies of brain lesions, of a concrete attitude relying on automatic speech associations from an abstract attitude forming propositions and utilizing rational language. Husserl&rsquo;s prepredicative/predicative differentiation plays a key role in Schutz&rsquo;s essay “Type and Eidos in Husserl&rsquo;s Late Philosophy,” in which he shows a gradual development from empirical types passively constituted within the prepredicative sphere to presumptive universals spontaneously formed in the predicative sphere. At the predicative level, scientific reflection further transforms nonessential types (e.g., that whales are fish) into essential ones (whales are mammals), and philosophy seeks eidetic universals. At the end of this essay, Schutz speculates whether the Husserlian method of freely varying examples to determine the essential features that survive through such variations is not constrained by both ontological structure (e.g., sounds are not colors) and the socially shaped, natural-attitude experience of types. In his essay “Tiresias, or our Knowledge of Future Events,” produced contemporaneously with the type essay, Schutz explains how knowledge based on natural attitude types functions in contrast to the mythical Tiresias&rsquo; knowledge of the future, which is private and detached from his present or past experience. These types, based on past experiences or socially transmitted, aim at future occurrences not in their uniqueness but with an emptiness that future events will fill in, such that only in retrospect, after an event occurs, is one able to determine how much that event was expected or unexpected. Finally, there are future events lying beyond one&rsquo;s influence that one expects only to conform with past experience and there are indeterminate projects that provide direction — not too tightly, though — as one gives shape to what is within one&rsquo;s power.</p>
+<p>Schutz, himself a trained pianist and widely read musicologist, integrated his phenomenology with his understanding of music. Music, differing from language in being non-representative, lends itself to phenomenological analysis in the meaning it carries beyond its mere physical nature as sound waves and in its character as an ideal object that must be constituted through its unfolding stages, i.e., polythetically. Further music is bound to inner temporality, and its themes, even though their note sequences are the same, vary according to context, require reflection for their recognition, and emerge through an interplay between musical elements and the listener&rsquo;s attention and interest. Schutz found music instructive in regard to social relationships insofar as, prior to any communication, parties to musical performances establish a non-linguistic, non-conceptual “mutual tuning in relationship.” This “tuning-in,” this sharing of another&rsquo;s flux of experience in inner time already described in his Phenomenology, is very clearly exhibited whenever a listener to a musical performance participates in quasi-simultaneity in the composer&rsquo;s stream of consciousness or when co-performers orient themselves to each other, the composer, and the audience. Hence, Schutz disagreed with Maurice Halbwachs who posited musical notation as the basis of social relationships between performers, when in fact it is merely a technical device accidental to their relationship. In another essay, Schutz depicted Mozart as a social scientist, presenting a succession of situations that different characters interpret, and Schutz showed how orchestral representations of characters and their moods in melody made possible a simultaneity of fluxes of inner time that the non-operatic, nonmusical dramatist could only unfold successively. Without self-consciously philosophizing, Mozart conveyed in music and better than most philosophers in their own medium, how human beings meet each other as a “We.”</p>
+<p>Fred Kersten discovers in Schutz&rsquo;s musical writings important philosophical insights. For instance, music and inner time unfold polythetically and cannot be grasped monothetically; that is, one must live through the unfolding of a symphony or inner experience, and any conceptual summary of their contents inevitably fails to do justice to their meaning. However, since all conceptualization consists in a monothetical grasping of polythetic stages, Schutz is actually realizing that certain dimensions of consciousness elude conceptualization and thus demarcating the limits of rationalization, just as he had pointed out how certain provinces of meaning (e.g. dreams) evade theoretic comprehension or duration eludes memory. According to Kersten, Schutz has seen clearly that the passive associations of listening (e.g. recognizing the appearance of symphonic theme) differ from those of sight (e.g., apprehending an object like a house) and that listening does not identify numerically distinct items but produces an illusion of identification. Schutz&rsquo;s conclusion that sameness in music involves not numerical unity but recurrent likeness challenges the fundamental Husserlian thesis that the synthesis of passive identification is universal, at the basis of the constitution of the world.</p>
+<p>Schutz was also a master of literature, a careful student of the works of Goethe, and author of an article that analyzed Miguel de Cervantes&rsquo;s Don Quixote through the prism of the theory of multiple realities. Cervantes repeatedly brings Quixote&rsquo;s “world of chivalry” — an order of reality with its arguments for its own reality, its stock of knowledge, modes of social reinforcement, and views about space, time, and causality — into conflict with the worlds of drama, common sense, and science. Although Quixote is capable of constructing a defense of his own chivalrous world from within that world, the fact that this phantasied world contains an enclave of dreams (at the cave of Montesinos) ends up undermining it by raising the possibility that it itself is but a dream. Quixote&rsquo;s withdrawal of the accent of reality from his private province of meaning reveals for Schutz the importance of the paramount reality of everyday life and the value of Sancho Panza who “remains deeply rooted in the heritage of common sense.” (Schutz 1964, 158)</p>
+<p>Schutz also brought his phenomenology to bear on political issues such as citizenship or racial equality. His essay “The Well-Informed Citizen,” dealing not only with citizenship but also the sociology of knowledge under the rubric of the social distribution of knowledge, constructs ideal types of the expert, the man on the street, and the well-informed citizen (to whom it falls to determine which experts are competent). Schutz delineates various zones of interests, or relevances, extending from those within reach to those absolutely irrelevant, comments on the constant changeability of relevance configurations, and differentiates between relevances intrinsic to a theme, which one chooses, and those imposed. Paradoxically, as modernity&rsquo;s rationalization processes heighten anonymity, modern technology also brings everyone within reach, as the nuclear arms race demonstrates, and Schutz suggests as a solution that citizens become broadly informed rather than succumb to the narrow dogmatism of the man on the street or the short-sighted specialization of experts. In becoming well-informed, one depends on knowledge socially derived through the consultation of eyewitnesses, insiders, analysts, and commentators, depending on their access to facts and governing relevances, much as Alvin Goldman&rsquo;s social epistemology involves appraising the veritistic value of assorted agents&rsquo; claims and practices. Schutz, usually the value-free describer of social reality, in his conclusion endorses a normative notion of democracy in which it is a duty and a privilege, frequently not available in non-democratic societies, for well-informed citizens to express and defend opinions that often conflict with the uninformed opinions of the man in the street.</p>
+<p>Schutz composed “Equality and the Meaning Structure of the Social World” at the time of the legal decision of Brown v. Board of Education that ended racially segregated education in the United States. With typical dispassion, Schutz explains how the meaning of the term “equality” depends on the domain of relevances to which it pertains (e.g., economic equality, equality of civil rights, etc.) and on the in-group or out-group utilizing it — and here he conceives interpretation in terms of groups rather than individuals. He spends most of the essay contrasting subjective and objective interpretations of group membership, equality, and equality of opportunity, construing “subjective” and “objective” in terms of in-group and out-group interpretations. As regards group membership, he illustrates that the mere categorization of another as a member of a group need not be discriminatory, but depends upon an appropriate evaluation of the category from the viewpoint of the categorized individual. In-groups and out-groups differ in whether they understand equality merely as “formal,” i.e., as nondiscrimination, or “real,” calling for special rights and services. Similarly groups think of equality of opportunity from an out-group perspective as “the career open to all” without appreciating how in-group members might subjectively experience insuperable obstacles in trying to avail themselves of opportunities supposedly objectively equal. In this essay, Schutz is concerned not to present a final definition of equality, but to highlight the differences between in-group and out-group understandings that serve as the preconditions of any discussion about it.</p>
+<p>Some recently published texts that Schutz authored during an ethics institute in 1956 make possible an even richer awareness of his views on politics. In these documents, he recognizes the complex, unforeseen consequences resulting from social change, urges active engagement with others as crucial for developing social and civil judgment, and examines the barriers to sound civil judgment created by government, political parties, pressure organizations, mass media, and educational, familial, religious, and professional institutions. At one point, he even criticizes views that limit democracy to mere majoritarian rule insofar as they neglect the importance of the single individual&rsquo;s ability “to make his personal opinion be heard and appreciated,” preferably in smaller publics, such as families, schools, local communities (cited in L. Embree 1999, 271). One could take Schutz&rsquo;s thoughts here to converge with political theories favoring what is today known as deliberative democracy. Moroever, his normative judgment against implementations of democracy that increase the anonymity of citizens suggests that a parallel normative, even ethical, dimension informs his many theoretic endeavors to retrieve from anonymity the neglected subjective viewpoint of actors, whether strangers, homecomers, victims of discrimination, or the “forgotten man” of social sciences.</p>
+<p>3.5 Phenomenology<br />
+Schutz&rsquo;s philosophical targeting of the social world had its repercussions upon phenomenology, particularly in his critique near the end of his career of Husserl&rsquo;s account (also referred to as a “transcendental constitution”) of how the other person comes to appearance in consciousness. In “The Problem of Transcendental Intersubjectivity in Husserl,” Schutz first objected when Husserl in his Fifth Cartesian Mediation prepared the ground for the other&rsquo;s appearance in consciousness by the methodology of screening off everything that referred to other minds. Husserl had begun the Cartesian Meditations by reflectively abstaining from believing in the existence of what appeared in experience in order to refrain from any dogmatic suppositions, but since this first epoché, or phenomenological reduction, still left meanings with intersubjective references, the screening off methodology, or second epoché, became necessary. For Husserl, one&rsquo;s actual or potential experiences of correlates that were not properly of the ego still would belong to one&rsquo;s sphere of ownness, but one had to seek to exclude any reference those correlates, as products of the sense-determining of other subjectivities, might have to those other subjectivities. For Schutz, however, insofar as those experiences of what was not properly of the ego, supposedly confined within the sphere of ownness, had their origin in the intersubjective world of everyday life that higher level phenomenological reflection presupposed, it seemed difficult to see how one could exclude from such correlates any reference to the sense-determinining of other subjectivities. It was as though Husserl was striving for a theoretical detachment that the ontological origins of theory would not allow. In addition, for Schutz the very consciousness of another inevitably instituted a relationship with her. Husserl&rsquo;s argument in the Fifth Meditation continued by affirming that a non-ratiocinative “pairing” occurred through which one transferred the sense “another living body” to another. One could then verify that the other&rsquo;s living body was like one&rsquo;s own if it continued manifesting behavior congruent with what one would expect of a living body. Schutz challenged this sense-transfer, however, since one experienced the other&rsquo;s body from the outside, unlike one&rsquo;s own, which was given interiorily (but might the similarities suffice for the transfer?), and he suggested that verification through what was “congruent” behavior drew on social-world presuppositions of how bodies ought to behave. Finally, he questioned whether the philosopher, refraining from belief in the existence of the world or others and entering into a certain reflective solitude, could ever experience the transcendental community of which Husserl spoke, since she only constituted the world for herself and not for all other transcendental egos. Intersubjectivity, Schutz concluded, was a matter of everyday life to be simply described and not to be constituted within the transcendental sphere of a self-reflective consciousness giving an account of how the other comes to appearance. Just as Schutz had argued that the social world dictated the methods for its own social scientific investigation, so here it seemed to prescribe to phenomenology the approach appropriate to its description.</p>
+<p>In the last thirteen years of his life, Schutz was preparing a comprehensive phenomenology of the natural attitude, and one manuscript, edited by Richard Zaner, was posthumously published as Reflections on the Problem of Relevance, and another, co-authored by Thomas Luckmann, appeared as The Structures of the Life World. The former book distinguishes different sets of interests, or relevances: topical (which focus attention on themes), interpretive (which confer meanings on experiences or objects), and motivational. Such relevances often involve a subject, with more or less systematic interests, or relevances, interacting with the world, and from this interaction between subject and world, it becomes evident what is “of relevance” to an actor. These relevances, interdependent on each other and conjoined with one&rsquo;s system of types or categories, constitute a stock of knowledge, which Schutz examines in terms of its genesis and structure. He further explores the meaning of one&rsquo;s biographical situation, including types and relevances, one&rsquo;s body, and the ontological constraints of space and time that, for instance, prevent one from being at certain places at certain times or compel one to wait (for salt to dissolve in water).</p>
+<p>The Structures of the Life-World represents a most complex and thorough restatement of many of the themes Schutz addressed throughout his life. After a more general account of the life-world and its relation to the sciences, the book takes up its various stratifications, such as provinces of meaning, temporal and spatial zones of reach, and social structure. Schutz and Luckmann then comment on the components of one&rsquo;s stock of knowledge, including learned and non-learned elements, relevances and types, and trace the build-up of such a stock. The authors study the social conditioning of one&rsquo;s subjective stock of knowledge and inquire about the social stock of knowledge of a group and different possible combinations of knowledge distribution (generalized and specialized). They consider how subjective knowledge becomes embodied in a social stock of knowledge and how the latter influences the former. In addition, the authors pursue such issues as the structures of consciousness and action, the choosing of projects, rational action, and forms of social action, whether such action be unilateral or reciprocal, immediate or mediate. A final section analyzes the boundaries of experience, different degrees of transcendencies (from simply bringing an object within reach to the experience of death), and the mechanisms for crossing boundaries (e.g. symbols).</p></article></body></html>

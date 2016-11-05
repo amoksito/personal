@@ -1,2 +1,0 @@
-# personal
-Cosas Mias

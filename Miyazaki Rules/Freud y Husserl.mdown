@@ -1,0 +1,137 @@
+#Freud y Husserl
+
+Por si me sigue leyendo en vez de escribir sus páginas, 3 advertencias preliminares: estoy sumamente incómodo con la parte en la que hablo de los "sujetos" fenomenológicos (pensando en el yo trsacendental, el yo-empírico, el yo-mónada, etc.), corríjame y mándeme a leer si es tan amable. Ya sé que tengo que leer CM, estoy en camino, ya llegando.
+
+2) Me pasé con Freud al alemán, q se deja leer mucho más fácil de lo q temía, porque mire, posta:
+
+> "Bewußt sein ist zunächst ein rein deskriptiver Terminus, der sich auf die unmittelbarste und sicherste Wahrnehmung beruft" dice Freud.
+
+"«Ser conciente> es, en primer lugar, una expresión puramente descriptiva, que invoca la percepción más inmediata y segura", traduce muchacho, lo cual no está _mal_, pero yo diría que F. dice en realidad: "ser conciente es, en primer lugar, un término puramente descriptivo, que se refiere a la percepción más immediata y segura." No sé cuán grave es, pero posta que no me parece lo mismo, ud. juzgará. 
+
+Y dps, más puntualmente, _Verdrängung_ como 'represión', me empieza a parecer que es una metáfora que se venga, agrego algo más abajo cuando es relevante.
+_vorbewusst_ como "precc" es directametne _misleading_, cuando por vorbewusst F. quiere entender _latent_, como él mismo dice y en lo que posta, parecería, aunque fuera accidentalmente, ser en el sentido fenomenológico: lo que ahora no es temáticamente cc, pero puede volverse realizando los actos correspondientes.
+
+3) Todo lo que sigue es altamente especulativo, al punto en el q empieza a significar 'poco riguroso', pero no me disculpo.
+
+##CC e Icc traducido a fenomenológico
+
+Leyendo primeras páginas Das Ich und das Es.
+
+> "Die Psychoanalyse kann das Wesen des Psychischen nicht ins Bewußtsein verlegen, sondern muß das Bewußtsein als eine Qualität des Psychischen ansehen, die zu anderen Qualitäten hinzukommen oder wegbleiben mag".
+
+Tienta la metáfora del rayo atencional y ver algo en el orden de lo temático y lo marginal. Cc= temático; Icc = no-temático. Pero parecería que enseguida hay que agregar una restricción, Icc no es meramente no-tematico, sino más bien 'intematizable' (no en una imposibildad absoulta, sino una que requiere de múltiples mediatizaciones y medio que sólo tenemos el método del psicoanálisis como para intentar llegar, que descansa principalmente en la asociación, que es medio una cagada para el filósofo que quiere hacer epojé y descubrir verdades usando sus superpoderes). Hay que ver, entonces, cómo traducir esa intematizabilidad exigida por Freud a algo fenomenológico coherente. Freud mismo dice: "Der Hinweis auf eine Deutlichkeitsskala der Bewußtheit hat nichts Verbindliches und nicht mehr Beweiskraft als etwa die analogen Sätze: »Es gibt so viel Abstufungen der Beleuchtung vom grellsten, blendenden Licht bis zum matten Lichtschimmer, folglich gibt es überhaupt keine Dunkelheit"
+
+Hablé en otro lado de constituciones espurias y noemas rotos (Cf. el otro archivito, qué capo que soy, me empiezo a parecer a E.=). Podríamos ahora preguntarnos 'quién' lleva a cabo esos actos. F: "Wir haben uns die Vorstellung von einer zusammenhängenden Organisation der seelischen Vorgänge in einer Person gebildet und heißen diese das Ich derselben", pero quiénes son "wir"?? ¿Cuál de todos los sujetos constituye espuriamente? Quizás ninguno de los de H. Quizás podemos pensar el Icc freudiano (o el ello, capaz en un rato tenga más claro lo relevante de la diferencia) como una 'parte' del yo-empírico, el ello-empírico, con sus propios horizontes, con su propia biografía, con sus propias constituciones y un momento de unidad en eterno equilibrio inestable. Este sujeto, además, sería (en comienzo) inaccesible en cualquier actitud de las conocidas; en otras palabras, para poder comprender el ello-empírico necesitamos entrar en una actitud particular, para poder constituirlo en su verdad (y dejar así de constituir el resto del mundo bajo su influencia, ponele). Quiero decir, el ello-empírico sería diferente del yo-trascendental (este último completamente independiente de aquel), diferente del yo empírico, pero 'aparecería' (si es que lo q' hace el yo empírico, en algún sentido, sea aparecer, no en sentido temporal, sino lógico) 'después' (malditas metáforas mal hechas, mal M.), 'más arriba' incluso que el yo-empírico. En actitud natural, las vivencias del ello-empírico se dan a la cc bajo las formas de la neurosis, los sustitutos, las diferentes manifestaciones del icc, incluso si este hecho mismo no es cc para la cc e incluso aunque sí lo sea. 
+
+En actitud fenomenológica, epojé, reducción, querríamos suponer, y en gran parte tendríamos razón, que el Icc no aparece para nada, que hicimos epojé de él tmb. Habría que ver cuánto nos sigue apareciendo como parte del ejercicio mismo de hacer epojé.
+
+Jugando con los conceptos a la filosofía especulativa: el ello es el límite entre el cuerpo y la cc (como un todo). Es el 'resultado' de la encarnación del sujeto trascendental. Nacemos siendo puro ello, dice F. El ST todavía es una mónada dormida, necesita que el cerebrito madure y el yo empírico termine de formarse en su maldito devenir ontogénetico. Lamentablemente, para el momento en que el ST está en pleno poder de sus funciones constitutivas, el ello-empírico pasó de ser nuestro deseo corporal desenfrenado, vivido siempre de manera cc, hasta que las primeras operaciones constitutivas de la cc se vieron obligadas a neutralizar componentes afectivos (el deseo puro del ello) por las exigencias del mundo de la vida y el a priori histórico. Cuando a nuestro proto-yo le enseñaron a constituir, le enseñaron pa'l orto. Le enseñaron constituciones espurias y noemas rotos. Para tolerar este sinsentido, el proto-yo infante tenía dos opciones. Matar a su padre, diciéndole, ¡no! ¡No solo me cojo a mami, sino que voy a constituir el mundo como corresponde, puto! No como burgués egoista y malo, ni como positivista alienado, lo voy a constituir como es! ¡Bello y lleno de amor! Pero, lamentablemente, ese ese mismo poder inherente al ser humano como tal, porque Dios lo hizo con amor, de constituir el mundo tal y como es, el que le hizo darse cuenta de que no podía matar a papi y el único camino era la sumisión. Inevitablemente, ese auto-ultraje originario sólo puede ser reprimido, para que el mundo cobre sentido, aunque ya se lo hayamos quitado. Que se vuelva ese mundito del apriori historico que nos toca, con sus reglas y sus metas y sus no-verdades. Cuando llega la pubertad, el ello se volvio autónomo e icc al yo, aunque con algo así como 'eficacia causal', ya que estamos en el orden del o empírico, incluso a ese yo maduro que tiene todos los poderes del ST y constituye mundo como debería, en su formalidad. 
+
+Quizás siempre haya un ello para la cc humana, como resultado de la encarnación y de la penosa union del alma trascendental y el cuerpo material. Quizás siempre algo de ese ello se autonomice y vuelva icc, como resultado de las penas y dolores propios de la existencia humana en general. Diríamos que la neurosis es la forma propia que ese ello adquiere en la familia patriarcal, en la civilización occidental, en el capitalismo, lo que fuere. 
+
+La resistencia podría ser un 'componente' (descriptivo) de la actitud natural. La represión es más complicada. Decía que podía ser una metáfora q se venga. Si traducimos Verdrängung por 'expulsión', por ejemplo, podemos dejar de pensar en términos de una 'fuerza' que no sabemos de dónde viene y empezar a pensar en una operación de la cc constituyente que consiste en tornar inaccesibles/icc ciertos noemata, recuerdos, sedimentaciones, horizontes...
+
+---
+
+## El problema de los actos objetivantes y Freud.
+
+Algunos interpretes de Husserl, como Steinbock, sostienen que los __actos objetivantes__ son fundamento para los __actos no objetivantes__ que, de todas formas, construyen sentido. Es decir: los actos no objetivantes tienen la misma estructura __correlación/significado__ (tomando significado en su sentido más amplio) que los actos objetivantes. Sin embargo, están fundados. En efecto, actos _deseo_, _valoración_ y _actos afectivos_ dependen de la construcción/constitución primera del objeto que se desea, valora, o que nos afecta afectivamente; mediante algún otro tipo de acto. 
+
+¿Qué pasa cuando tenes un afecto dirigido hacia una objetividad, y todo este mambo es no consciente? Quizá acá está la cuestión más interesante con Freud. Porque, digamoslo así, hay dos posibilidades:
+
+1. Que lo que es ICC sea el correlato del acto-no-objetivante. 
+2. Que lo ICC sea la suma de los dos: un objeto ICC, cargado libidinalmente.
+
+Obviamente, diría Steinbock/Husserl, un objeto ICC cargado libidinalmente implica que la carga libidinal también va a ser ICC. No podría ser de otra manera, pues solo podemos ser CC de objetos "objetivados". Ahora bien, dice Freud, el aparato psíquico tiene maneras de hacernos saber que hay una representación ICC con una carga libidinal "frustrada". ¿Cómo lo hace? Mediante desplazamientos de divero tipo: actos fallidos, chistes, estructuras-neuróticas varias, etc., etc. En efecto, si conocemos la teoría psicoanalítica, podemos "volvernos conscientes" en primera instancia, de que hay un _acto no-objetivante_, un acto afectivo, valorativo o de deseo, dirigido hacia una objetividad que no logramos ubicar. Así, el acto-no-objetivante puede volverse CC, en cierta medida (y habrá, evidentemente, que objetivarlo, en la reflexión o en donde sea para poder llegar a este resultado) aún cuando la representación o el objeto que está así investido libidinalmente permanezca ICC.
+
+¿Qué es, entonces, lo que _se reprime_? Antes de responder eso podemos considerar las condiciones trascendentales. Evidentemente, diría Freud si supiera Husserl, se reprime el correlato de un acto intencional. Dicho acto intencional puede haber sido un acto-objetivante, y entonces se reprimira una objetividad-constituida, con todas las cargas propias de otros actos-no-objetivantes que también hayamos dirigido hacia él, o quizá, lo que se reprimen son simplemente los correlatos de estos actos-no-objetivantes: afectos, deseos, valoraciones.
+
+Ahora bien, tomemos el segundo caso. Para que el afecto, deseo, valoración, whatever, _desaparezca_ de la conciencia, no solo tiene que desaparecer el correlato del acto en-sí-mismo. Tiene que desaparecer, también, en cierto sentido, el acto-no-objetivante, que se desarrollo en algún momento preciso del flujo de la conciencia temporal. En efecto, para poder reprimir el afecto, deseo, valoración, whatever, tiene que desaparecer de la cc también la constitución-no-objetivante: esto es, tiene que desaparecer el recuerdo de tal constitución. Y así, junto con el deseo, el afecto, la valoración; se debe reprimir EL EPISODIO en el cual tal constitución fue realizada. 
+
+Si logramos traer a la conciencia tal EPISODIO, entonces podremos, a la vez, cambiar el sentido de tal acto-no-objetivante. Por así decirlo, estaremos en condiciones, tendremos la libertad, de cambiar la __posición tética__ de tal acto-no-objetivante. 
+
+(Comentario desplazado: para Kant solo podre tener una experiencia objetiva como correlato de un acto objetivamente, cuando le adscriba a la intuición empírica -mediante un juicio- el concepto de _objeto-en-general_. Todo acto objetivante es, así, en Kant, papá-trascendental, un juicio. En Husserl esto cambia para bien, pero no en todos los interpretes).
+
+Pero hay que notar lo siguiente: el trabajo psicoanalitico te lleva hasta un _espacio de libertad ampliado_ por así decirlo. No te garantiza que luego vayas a tomar la desición "correcta" de cambiar la posición tética del acto en cuestión. Así, dar vuelta la represión no es garantia de curación, tal slo de que tenes la posibilidad de curarte. Y hasta ahí llega la cosa.
+
+###El espacio de libertad ampliado y el sentido de la terapia psicoanalítica
+
+Justo había pensado algo en esa línea, que no llegué a comentarles el otro día y no sé si lo anoté en algún lado, lo hago antes de olvidarlo.
+
+Quizás habría que decir que al traer el episodio a la consciencia, más que "cambiar el sentido de tal acto-no-objetivante" lo que ocurre es que lo desarticulamos. Se nos abre entonces el espacio de libertad ampliado y debemos decidir cómo reconstituir, qué nuevo sentido adjudicarle a nuestras vivencias en general, hacia dónde dirigir la líbido que fue liberada del síntoma. Y, se me ocurre, en ese momento hay tres posibilidades:
+
+1. La venganza del icc o la victoria de la neurosis. Uno se deshace del síntoma, pero vuelve a constituir pa'l orto, por así decir, sea por motivaciones internas o situaciones externas (nuevas frustraciones o vivencias traumáticas). Los síntomas reaparecen bajo otras formas.
+2. Cura contrarrevolucionaria o insertarse en la serie. Como usted ya dijo tantas veces, la concepción de 'cura' y 'normalidad' freudianas son, en definitiva contrarrevolucionarias, en tanto que apuntan a una adaptación al mundo capitalista, conformidad, alienación, etc. Sin embargo, sería una cura posta respecto de 1 aunque fuera solo por la desaparición de síntomas molestos y una forma más 'sana' de vivir el placer. También podría ser que 1. fuera una suerte de 'no resignarse' a ser contrarrevolucionario y ser más neurótico, pero más revolucionario ¿?
+3. Cura revolucionaria. Sin embargo, parecería que algún tipo de reflexión psicaoanalítica (si no fuera la terapia) es _necesaria_ para vencer las trabas neuróticas-alienadas que el capitalismo nos impuso bajo la forma de la familia patriarcal, etc. Es el camino que nos queda para desarticular nuestras constituciones espurias y constituir bien la comunidad intermonádica del amor.
+
+## Fenomenología, Psicoanálisis, Fundamentación.
+
+El punto es que todo Freud necesita de una fundamentación fenomenológica como dice Mati. No se trata tanto, quizá, de "mezclar" psicoanálisis y fenomenología, cuanto de fundamentar fenomenológicamente el psicoanálisis. En cierto punto Lacan intenta esto, pero solo hasta cierto punto. Podemos ver el problema especificamente en las fuentes de Lacan: utiliza más a Heidegger que a Husserl. Y ahí la cuestión es siempre la misma: ¿Hasta que punto lo que Heidegger hace es fenomenología? __Crowell__, en su texto __Space of Meaning__, afirma que Heidegger siempre estuvo interesado por algo así como una Lógica Trascendental, dadas las influencias primero neokantianas (de _Baden_: Rickert, Lask) y luego fenomenológicas (Husserl). Encontrar una suerte de __espacio trascendental de significado__ fue siempre, para este interprete, la meta de Heidegger. Y uno puede estar de acuerdo con tal interpretación, ponele. Pero también es cierto que probablemente esa no es la interpretación de Lacan, y por ello falla en intentar darle un rigor fenomenológico al psicoanálisis. 
+
+Uno de los puntos centrales de la diferencia entre Freud y Lacan parece ser en la consideración ontológica sobre el tipo de actos que se reprimen. Y esto, ya, debería quedar como un resultado provisorio pero bastante fundamental: 
+
+- Lo que se reprimen son ACTOS (y el recuerdo del acto) junto con sus CORRELATOS. 
+
+El punto es: ¿reprimimos actos pre-predicativos o actos predicativos? ¿Qué son, por ejemplo, las valoraciones? ¿No son, en cierto sentido, todos los actos-no-objetivantes una suerte de predicación?
+
+Ahí hay algo para explorar. Me pinta que Freud sería más del orden "Se reprimen experiencias ante-predicativas" y Lacan tipo "Se reprime el Lenguaje, se reprimen actos predicativos". Pero evidentemente nada de esto está puesto así explicitamente, en ninguno de los dos. Otra manera de verlo, que es la misma si se quiere, es ponerlo no en terminos de experiencia pre-predicativa y exp. predicativa; sino en términos de experiencia sensible (_sichlicke Erfahrung_) y exp. categorial. 
+
+Ahora, si tenemos en cuenta que Freud fue alumno de Brentano, seguramente algo del orden de la _lógica trascendental_ (si presto atención en las clases) se le jugaba, y posta que pareciera que fuera así.
+
+Se ve, como sea, que Freud está más lejos de "la magia" incluso que Husserl. No hay una "experiencia intuitiva" (Wesenschau) o lo que sea en él. No se trata de guiarnos hacia una experiencia mágica, sino tan solo de guiarnos a través del hilo-conductor de un correlato de un acto-no-objetivante, hasta el momento primigenio de tal constitución, para permitirnos la libertad de deshacer la posición tética del mismo. Cuando Rickert le pega, en 1920, a Husserl por ser parte de las corrientes de pensamiento de "la filosofía de la vida" (_Lebensphilosophie_), debido justamente a este énfasis de Husserl en la "intuición", tiene quizá un punto, que no tendría, si lo hubiera intentado, contra Freud . . .  por mucho que parezca, _a priori_, lo contrario.
+
+> What matters here is obviously not the articulation of the logical vis-à-vis the psychological: this, in fact, can only lead to a refusal of a philosophy of mere life. Rather, what matters is the doctrine of the "vision of essence [ Wesensschau ]" which Husserl intends to appoint as fundamental science for all philosophy and which granted him followers. Albeit with a conscious one-sidedness and to this extent unfairly, we try to interpret this doctrine too as a contemporary trend connected to the inclinations towards Erlebnis, considering that phenomenology means the doctrine of a newly discovered kind of intuitive and immediate "phenomena [ Erscheinungen ]."
+
+Hay que volver, entonces, a pensar en la articulación de los __niveles de constitución__. Y en dos sentidos: 
+
+1. Actos no-objetivantes fundamentados en actos-objetivantes.
+2. Actos predicativos/categoriales fundamentados en actos prepredicativos.
+
+Esto es parte de la problemática fenomenológica, pero también de la neokantiana. Sobre todo en LASK, que es uno de los primeros en ver la conexión 2. en _Die Logik der Philosophie und die Kategorienlehre_. Hasta entonces, la filosofía considera una cierta independencia del nivel lógico, que Lask es el primero en poner en cuestión. Luego, la recepción de su lectura es Ideen, MÉDITATIONS CARTÉSIENNES, etc, etc. Gurwitsch, como "mero interprete" de Husserl también lo ve claro: 
+
+> In his last three books, Formale und transzendental Logik, Erfahrung und Urteil, and Die Krisis der europiischen Wissenschaften und die transzendentale Phånomenologie, Husserl pointed out the rootedness of the predicative sphere in the pre-predicative one and formulated the idea and the program of a genealogy of the predicative sphere. 
+
+Y también:
+
+> In the mentioned books, Husserl has taken important steps in that direction and presented some decisive results. Still, the task is far from being completed. Its completion amounts to nothing less that providing a solution to the problem of the relation between reality and logic or -which is the same from another point of viewthe elaboration of a phenomenological theory of the sciences: the formal ones like logic (in the narrower and technical sense) and mathematics as well as those concerned with reality, that is to say both the natural and human sciences or, to use a German expression, "Geisteswissenschaften." It is this task with which, it seems to me, Husserlian phenomenology finds itself confronted at the present stage of its development. Toward that end, it necessary to set forth, first, proto-logical structures and then the operations of consciousness by means of which the transition to the predicative sphere or logic in the wider sense is accomplished. In this respect the notion of thematization may prove a valuable theoretical instrument.
+
+Lo mismo falta en Freud. 
+
+Recordemos lo siguiente sin embargo: el correlato de una experiencia categorial es un _Sachverhalt_ en Husserl, un _estado de cosas_. Al menos así lo presenta en LU, y eso parece . . .  pobre. La experiencia predicativa debería incluir, como correlatos constitutivos, no solo Sachverhalt (__% ¿qué cosas??__). O eso me pinta en este instante. Además, prosiguiendo esto hasta sus límites, la experiencia predicativa debería dar cuenta también de la articulación inmanente para la vida misma de la totalidad de la vida consicente predicativa, e incluir cosas como las metáforas (la paloma es la paz, el lobo es la caza, la depredación, etc.), las metonímias, etc., etc. (Habría que mirar algunas vez las Urteilstheorie, las _Lecciones sobre el Juicio_ que Husserl imparte en 1905, publicadas por Schuhmann como HUA Materialen V). 
+
+Pero, ¿Por qué no encarar el problema entre Freud y Husserl desde el que pareciera es el motivo más obvio? Esto es, la idea de una Fenomenología Deconstructiva (__Abbau__), de una arqueología fenomenológica que intenta excavar en los edificios constitutivos que están a la base de toda constitución de orden superior. 
+
+No niego esta posibilidad, pero me parece más bien _complementaria_. Para analizar la _estructura neurótica_ algo como una cierta __apercepción afectiva__ debería ser teorizado, evidentemente. 
+
+- Alta idea: APERCEPCIONES AFECTIVAS.
+
+Lo dije ayer en otro lado pero el problema de la __reflexión__, como acto capaz de tematizar un acto que no es objetivante, pero, mediante tal tematización, volverlo objetivante, me parece cada vez más fundamental. Acá, sin embargo, llegamos a uno de esos límites raros del pensamiento: el acto reflexivo es, a su vez, posible de ser objetivado -mediante un nuevo acto de reflexión-, etc, etc. Sin embargo, notese también lo siguiente: si todos tenemos una experiencia 'cotidiana' de esta posibilidad, aunque sea icc o pre-cc, tenemos allí uno de los principios de la lógica: la __iteración__. 
+
+## Horizontes y Psicoanálisis.
+
+A todo esto, tampoco tenemos que olvidarnos de lo que brinda el horizonte al momento presente de cada constitución, en cada uno de las esferas ontológicas o de los reinos del ser u ordenes de existencia en lo que nos encontremos. 
+
+Probablemente lo único bueno que hizo Merleau-Ponty fue advertir esta problemática en el orden de lo sensible, de la primera experiencia pre-predicativa. Por ejemplo, con las __constancias cromáticas__: un color solo aparece como tal en relación a los colores que lo rodeen, pero también en relación a otros aspectos visuales 'no-cromáticos' de la cosa: forma, iluminación, etc. A su vez, lo visual (cromático y no-cromático) aparece como tal en relación a otros aspectos sensibles, como los táctiles, etc. Y, en definitiva, esto equivale a que hay percepción sobre un fondo de impercepción. 
+
+Lo mismo luego tiene que decirse de la esfera predicativa (tipicos ejemplos de Gurwitsch respecto al _campo temático_ en las esferas conceptuales), al mundo como unidad (tipicos ejemplos de Husserl respecto al mundo como el horizonte de todos los horizontes), etc, etc. 
+
+Así, las APERCEPCIONES AFECTIVAS, digamos con Mati, las apercepciones-afectivas-espurias del neurótico, tienen múltiples fuentes probablemente. Se puede excavar en la biografía del individuo en busca de alguna de ellas. Otras dependen del _Lebenswelt_, y a esas no hay con que darles (o sí: con la Revolución). 
+
+###M
+
+Usted decía más arriba q lo q se reprime son actos y sus correlatos, pero tmb dijo que era el EPISODIO en el que esa constitución había sido realizada, que incluye tmb el correlato. Y parece que un poco el punto es, justamente, que esa constitución (el episodio) ocurrió 'al interior' de determinados horizontes, por eso el 'sentido' de las vivencias (que es en definitiva lo que se desplaza a los síntomas y manifestaciones icc) sólo es tal al interior de esos horizontes. Por eso no podemos hacer generalizaciones empíricas en psicoanálisis y es necesario conocer la biografía del individuo. Y, en definitiva, por eso es tan difícil llegar a ese episodio, porque uno ya no vive en esos horizontes. Si bien no están reprimidos como el episodio y sus componentes, ya no son los horizontes que 'habita' el yo. Y de eso va la terapia PA, intenta reponer esos horizontes para llegar al episodio y al momento de la constitución espuria. Lo hace mediante asociaciones, transferencia, interpretación de otras manifestaciones icc, ¿etc?
+
+## Valores y Psicoanálisis.
+
+Siguiendo con el tema de los horizontes, para Freud toda valoración implica una cierta carga libidinal. Toda constitución-no-objetivante es de ese orden. En efecto, tenemos acá la importancia del horizonte bajo el cuál se realizan estas _apercepciones valorativas_ que vamos a llamarlas. 
+
+Husserl elabora conceptualmente varios tipos de Historicidad (mal no haber puesto esto en el trabajo para la Academia). La primera es, valga la tautología, la __historicidad primaria__: se trata de la simple Historia efectiva. Propone metas que sobreviven a la caducidad de las generaciones. Pero no son, todavía, metas infinitas. El problema con el Capitalismo (o el neocapitalismo quizá) es que es un retroceso hacia una Historicidad primaria por así decirlo: las metas infinitas se han cancelado en su operatividad social. No nos proponemos una sociedad mejor, sino ir resolviendo las dificultades que surgen con el mismo devenir de los acontecimientos sociales. Eso es todo. 
+
+Y desde ese horizonte de significatividad valorativa última, constituimos valores. Pero estamos negando la verdadera esencia de nuestro ser occidental, y encima la vivimos constantemente. Todos sabemos "que hubo otro tiempo mejor". No como la mera perogrullada de "todo tiempo pasado fue mejor", sino en un sentido radical. Lo vemos en el arte, en la historia, en la política, en el saber que la URSS fue, etc., etc. Por lo tanto: hay que REPRIMIR diría Freud. O volvemos a una sociedad de metas infinitas, en todo el espectro en que "metas infinitas" pueden entenderse, o reprimiremos forever, o hasta que desaparezcamos como especie.
+
+
+
+
+
+
+

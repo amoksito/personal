@@ -1,0 +1,9 @@
+C:\Users\EmilianoRoberto\Documents
+
+pandoc -s -S -t revealjs aa.md -o Tester.html -V revealjs-url:C:\Users\EmilianoRoberto\Documents/reveal.js 
+
+pandoc -s -S -t revealjs aa.md -o TesterReveal.html -V revealjs-url:c:\\Users\\EmilianoRoberto\\Documents\\reveal.js --self-contained
+
+-V theme=beige
+
+Con TRES PUNTOS generas una pausa. 

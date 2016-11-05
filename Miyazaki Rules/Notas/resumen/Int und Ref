@@ -1,0 +1,40 @@
+#§1 El fenómeno de la referencia directa
+
+La referencia a un objeto singular puede ser directa o indirecta. Cuando es directa, es singular.
+Ref. directa-singular: "Edmund Husserl podría no haber fundado la fenomenología"
+ref. indirecta-no singular: "El próximo canciller alemán es seguro un social demócrata", 'quienquiera que sea'.
+Para esto es necesario el concepto de _mundo posible_ que sigue la siguiente regla: "Siempre que presupongo que es posible que P, acepto que (por lo tanto) hay un mundo posible, en el cual es el caso que P; y viceversa"
+Äußerungswelt de la toma de referencia en cuestión es: el mundo posible en el que una expresión es exteriorizada con el fin de una toma de referencia (Bezugnahme).
+Auswertungswelt: el mundo posible relativo a una exteriorización-proposicional (Satz-Äußerung), en el que la exteriorización del vehículo de referencia en cuestión entra como componenete, que debe ser juzgado como verdadero o falso.
+Definición toma de referencia singular: Una toma de referencia realizada i en un mundo de exteriorización dado w es singular cuando:
+1) El objeto x, al que i se refiere en w, es en todos los mundos de valuación, en los que x existe, de considerarse objeto de referencia (Bezugsgegenstand) de i (por lo que en ningún mundo de valuación en el que x no existe, un objeto diferente de x debe ser considerado como objeto de referencia de i) O BIEN:
+2) Se comportara como descrito en (1), si hubiera un objeto en w, al que i se refiere.
+
+La relación de referencia es general neutral respecto de la existencia. Que A refiere a B espiritual o lingüísticamente no implica que B existe en el mundo de exteriorización. No se sigue de que no exista el objeto, que la referencia no sea singular:
+Una toma de referencia i dada es singular, cuando vale en el mundo de la exteriorización el siguiente contrafáctico condicional: Si hubiera un objeto x al que i se refiere, habría que considerar el x relativo a todos los mundos de valuación en los que x existe, como objeto de referencia de i (por lo cual no habría ningún mundo de valuación, relativo al que un objeto distinto de x deba considerarse objeto de referencia de i)
+
+Toma de referencia oral/lingüística (sprachlich): son acciones que el hablante realiza, en la cual una cierta expresión se exterioriza y con ella se toma referencia a objetos individuales.
+Las tomas de referencia orales notifican tomas de referencia espirituales. El objeto de una toma de referencia oral es idéntico con el de la toma de referencia espiritual allí notificada
+
+Toma de referencia indirecta: Una toma de referencia i dada es indirecta cuando es referencialmente plurivalente; cuando hay múltiples mundos de valuación w, w' y una propiedad F involucrada en el contenido de i, para la que vale:
+1) en w existe un objeto x, que tiene en w F como único objeto,
+2) En w' exite un objeto y diferente de x, que en w' tiene F como único objeto;
+3) por (1) x debe considerarse en w como objeto de referencia de i, y
+4) por (2) y debe considerarse en w' como objeto de referencia de i.
+Se caracteriza por la indeterminación. El hablante piensa en un objeto cualquiera, sin saber de qué objeto se trata. En algunos mundos de valuación que son compatibles con lo que el sujeto de una toma de referencia espiritual indirecta cree al momento de la toma de referencia, un otro objeto cada vez posee como único la propiedad involucrada en el contenido de la toma de referencia correspondiente.
+
+La referencia indirecta no implica que pensemos en un objeto indeterminadamente. Normalmente tenemos un objeto determinado de nuestra experiencia potencial o actual. Abrimos un dossier mental sobre x. Esto Husserl lo tematizó respecto del concepto de constitución.
+
+Las tomas de referencia directas descriptivas se dividen en 2 clases: referenciales y atributivas: son atributivas cuando pueden ser notificadas por medio de una marca definida utilizada atributivamente.
+El hecho de que una toma de referencia notificada con enunciados contrafácticos realizados en el marco de una marca definida utilizada atributivamente deba ser directa, prueba que hay juicios atributivos singulares.
+Un juicio es entonces:
+a) Singular, si contiene una toma de referencia espiritual directa, de manera tal que vale: si el hablante correspondiente notifica el juicio en cuestión, entonces da nota eo ipso al mismo tiempo de una toma de referencia directa. 
+b) Singular atribuivo, si la toma de referencia es atributiva.
+
+También hay toma de nota atributiva indirecta.
+
+Términos singulares: expresiones orales con las que uno toma referencia directa o indirectamente a un objeto individual (vehículos de referencia oral).
+Términos singulares auténticos: términos singulares utilizados con el fin de una toma de referencia directa.
+
+#§2 Husserl como teórico de la referencia directa: Condiciones de verdad singulares, estado de cosas enunciado y contenido proposicional
+

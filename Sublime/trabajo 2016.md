@@ -1,0 +1,47 @@
+# Trabajo Jornadas Puan 2016
+
+# El enfoque constructivista de la intencionalidad: una lectura desde Gurwitsch. 
+
+## Introducción. 
+
+En _Ideas II_ Husserl presenta la distinción, para él fundamental, entre una _Actitud Personalista_ y una _Actitud Naturalista_ cuyos polos objetivos serán equivalentes a lo que más tarde, en los textos de _Crisis_ denominara como _Mundo de la Vida_ (_Lebenswelt_) y _Mundo de la Ciencia_. En _Crisis_ se presentá explicitamente, además, una tesis adicional: es precisamente en el Mundo de la Vida que se fundamenta el Mundo de la Ciencia. O en otras palabras, es sobre el suelo originario de nuestra experiencia cotidiana del mundo, que se realizan los actos subjetivos particulares que permiten determinar las objetividades propias de la esfera científica. 
+
+Ahora bien, ¿cuál es la naturaleza específica del Mundo de la Vida? Para Husserl este está constituido a cada momento por tradiciones, factores culturales, valores éticos, en suma, por un _a priori histórico_ que, según la tesis de _Crisis_, es un entramado de referencias que requiere, como metodología específica para su investigación, del uso de la pregunta retrospectiva (_Ruckfrage_). Sin embargo, dejando de lado las elaboraciones específicas que hará Husserl en torno a esta problemática hacia el final de su vida, y que involucran el recurso a los resultados propios de una particular _fenomenología genética y/o de la generatividad_, en este trabajo quisiera ocuparme de uno de los puntos que considero centrales para esta problemática, a saber: el problema específico de la experiencia originaria versus la experiencia derivada o, para ponerlo en términos de la tercera investigación lógica, de la relación entre una experiencia fundante, y una experiencia fundada. 
+
+Sabido es, además, que ya Brentano había propuesto como uno de los lemas básicos de su _Psicología Descriptiva_ que todo fenómeno psiquico:
+> o es la representación de un objeto, o se fundamenta en la representación de un objeto. 
+
+Quisiera señalar, con esto, que lo que algunas veces se denomina la problemática de los niveles de constitución, o lo acá cualifique como el problema de la experiencia fundante y fundada, atraviesa todo la historia de la fenomenología husserliana. Pero no solo de ella, sino que algunos de sus discípulos más destacados, entre los que en mi humilde opinión habría que incluir a Aron Gurwitsch, también se ocuparon de esto. 
+
+Así pues, y sin más introducciones, en lo que sigue voy a dedicarme a rastrear la perspéctiva del filósofo lituano respecto al nivel más fundamental de la experiencia del Mundo. 
+
+## Adquisición por Experiencia
+
+Si volvemos a la pregunta inicial de este trabajo, vamos a encontrar que Aron Gurwitsch tiene una respuesta muy específica respecto a la pregunta de cuál es la naturaleza primordial del Mundo de la Vida. Él dirá: es el Mundo Perceptivo. Pero nuevamente, ¿qué hay que entender por Mundo Perceptivo? Para comenzar a responder esta pregunta, habré, en lo que sigue, de centrarme en los análisis de Gurwitsch respecto a los niveles de constitución del objeto perceptivo. 
+
+Gurwitsch trata este problema bajo el tópico de la "adquisición por experiencia". Oponiéndose a la lectura que, según él, Husserl realiza de esta temática en textos como _Ideas I_, Gurwitsch afirma que al comienzo del encuentro perceptivo no nos encontramos en una actitud __meramente contemplativa__, sino más bien, en una actitud __práctica__. O, más concretamente, que el encuentro perceptivo siempre se da en situación y contexto, y los objetos que percibimos se presentan como más o menos adecuados, más o menos relevantes para resolver los problemas a los que nos enfrentamos, o realizar las metas de naturaleza práctica o que nos proponemos a cada momento. Para el filósofo lituano esto es fundamental, dado que si el correlato de la constitución contemplativa de un objeto perceptivo es un objeto físico y reíficado, con tales o cuales características materiales como masa, color, volumen, forma, etc.; el correlato de la constitución práctica es un objeto funcional, con tales o cuales valores funcionales o propiedades posicionales, apropiadas relativamente a la ocasión para ser usados de ciertas maneras definidas.
+
+Gurwitsch intenta subrayar, entonces, dos puntos. 
+
+1. Primero, la prioridad de la relación práctica entre el sujeto y el objeto perceptivo, con respecto a la relación teorética o contemplativa. 
+2. Segundo, que está relación práctica no es una relación uno-a-uno entre un sujeto y un objeto, o entre conciencia y objeto temático, sino que incluye el contexto, el transfondo o el horizonte de esta relación. 
+
+Así pues, la relación práctica es, por un lado, la más primitiva. Esto quiere decir que los actos intencionales específicos que se realizan en esta etapa o estadio de la constitución están supuestos como fundamento para actos contemplativos y/o teoréticos posteriores. Por otro lado, la relación práctica es más original. Esto es, los objetos de nuestro mundo cotidiano se definen, ante todo, por sus características funcionales, o los valores prácticos que exhiben en tales o cuales circunstancias. 
+
+En este sentido, Gurwitsch declara que la familiaridad con un objeto no deviene de la observación frecuente o pormenorizada del mismo, sino más bien de descubrir las maneras en que el objeto puede ser usado, de los fines o las metas a los que puedo destinarlo, en suma, de familiarizarme con su valor funcional, relativo a tal o cual situación. En efecto, la relación primera con los objetos, definida hasta ahora como una relación práctica, descubre ahora a los objetos como objetos funcionales. 
+
+Ahora bien, la funcionalidad o el valor funcional de los objetos no es necesariamente una característica permanente de los mismos, como sí lo son sus propiedades materiales. Un objeto tiene un determinado valor funcional, dice Gurwitsch, solo por el horizonte práctico, por la situación o por el contexto en que lo encontramos. Por un lado, podemos pensar en el valor funcional de los objetos relativamente a situaciones típicas. Por otro, relativamente a situaciones concretas. Pero nuevamente, la funcionalidad concreta siempre es, para Gurwitsch, más original que la funcionalidad típica, siendo está última un logro posterior, que deviene de múltiples encuentros concretos con el objeto perceptivo en cuestión. 
+
+La relatividad de los valores funcionales respecto al entorno en el que aparece en cada caso, es el tema fundamental de la investigación de Aron Gurwitsch. En este sentido, el autor llama a los objetos portadores de valores funcionales, objetos funcionales (functional objects o Funktionellgegestände). Ahora bien, como ya señalamos, tales objetos quedan definidos por propiedades relativas al horizonte específico en el que aparecen en cada caso. En la teoría gurwitscheana de la conciencia y de la intencionalidad, esto quiere decir que hay ciertas propiedades del objeto temático, que son tales en función de las relaciones específicas que tiene con el campo temático en el que el objeto aparece. 
+
+Quisiera ilustrar este punto, con un breve pasaje de la conocida novela de ciencia ficción 20.000 leguas de viaje submarino. Ned, uno de los protagonistas, pregunta “¿Qué es exactamente una perla?”, a lo que el Capitán Nemo responde:
+
+> -Amigo Ned, para el poeta, la perla es una lágrima del mar; para los orientales, es una gota de rocío solidificada; para las damas, es una joya de forma oblonga, de brillo hialino, de una materia nacarada, que ellas llevan en los dedos, en el cuello o en las orejas; para el químico, es una mezcla de fosfato y de carbonato cálcico con un poco de gelatina, y, por último, para el naturalista, es una simple secreción enfermiza del órgano que produce el nácar en algunos bivalvos.
+
+Creo que en la cita se manifiesta de forma clara los puntos del análisis de Gurwitsch que queremos destacar. Por un lado, que el objeto perceptivo siempre aparece como lo que es a la luz de determinado interés del sujeto que lo tematiza en cada caso. El contexto de la relación práctica, aún cuando sea en el contexto del Mundo Perceptivo, no es un contexto meramente sensible: incluye como parte componente esencial las metas, valores, o intereses de la conciencia en cada caso. Ahora bien, esto tampoco equivale a afirmar que tales propiedades son puramente subjetivas, dado que para Gurwtisch las referencias que determinan los valores funcionales “constituyen el horizonte en relación con el cual el objeto perceptivo aparece”. La situación misma, y las referencias asociadas a este, son las que determinan el valor funcional, y por ende, la naturaleza propia de los objetos perceptivos y/o funcionales. 
+
+
+
+Tomando en cuenta lo indicado hasta acá, me propongo ahora inahondar en la indagación de estos problemas, centrándome específicamente en los dos tipos de conexiones o _Gestaltverbindung_ que define Gurwitsch. Por un lado, tenemos un tipo de conexiones al interior del tema, propias del objeto perceptivo qua objeto material, que son relativamente estables, y por lo mismo independientes del contexto en el que aparecen en cada caso. Por otro lado, tenemos las propiedades funcionales, que dependen del tipo de conexión que Gurwitsch elabora como una conexión tema-campo temático, y que son aquellas de las que depende la aparición y la naturaleza concreta de los valores funcionales. 
+
+ 

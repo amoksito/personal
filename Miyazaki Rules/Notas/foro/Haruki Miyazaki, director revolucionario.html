@@ -1,0 +1,1053 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAzUABAAAAAAFNgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABbAAAABwAAAAcZMzaOEdERUYAAAGIAAAAHQAAACAAOQAET1MvMgAAAagAAAA+AAAAYHqhde9jbWFwAAAB6AAAAFIAAAFa4azkLWN2dCAAAAI8AAAAKAAAACgFgwioZnBnbQAAAmQAAAGxAAACZVO0L6dnYXNwAAAEGAAAAAgAAAAIAAAAEGdseWYAAAQgAAAFDgAACMz7eroHaGVhZAAACTAAAAAwAAAANgWEOEloaGVhAAAJYAAAAB0AAAAkDGEGa2htdHgAAAmAAAAAEwAAADBEgAAQbG9jYQAACZQAAAAaAAAAGgsICJBtYXhwAAAJsAAAACAAAAAgASgBD25hbWUAAAnQAAACZwAABOD4no+3cG9zdAAADDgAAABsAAAAmF+yXM9wcmVwAAAMpAAAAC4AAAAusPIrFAAAAAEAAAAAyYlvMQAAAADLVHQgAAAAAM/u9uZ4nGNgZGBg4ANiCQYQYGJgBEJuIGYB8xgABMMAPgAAAHicY2Bm42OcwMDKwMLSw2LMwMDQBqGZihmiwHycoKCyqJjB4YPDh4NsDP+BfNb3DIuAFCOSEgUGRgAKDgt4AAB4nGNgYGBmgGAZBkYGEAgB8hjBfBYGCyDNxcDBwMTA9MHhQ9SHrA8H//9nYACyQyFs/sP86/kX8HtB9UIBIxsDXICRCUgwMaACRoZhDwA3fxKSAAAAAAHyAHABJQB/AIEAdAFGAOsBIwC/ALgAxACGAGYAugBNACcA/wCIeJxdUbtOW0EQ3Q0PA4HE2CA52hSzmZDGe6EFCcTVjWJkO4XlCGk3cpGLcQEfQIFEDdqvGaChpEibBiEXSHxCPiESM2uIojQ7O7NzzpkzS8qRqnfpa89T5ySQwt0GzTb9Tki1swD3pOvrjYy0gwdabGb0ynX7/gsGm9GUO2oA5T1vKQ8ZTTuBWrSn/tH8Cob7/B/zOxi0NNP01DoJ6SEE5ptxS4PvGc26yw/6gtXhYjAwpJim4i4/plL+tzTnasuwtZHRvIMzEfnJNEBTa20Emv7UIdXzcRRLkMumsTaYmLL+JBPBhcl0VVO1zPjawV2ys+hggyrNgQfYw1Z5DB4ODyYU0rckyiwNEfZiq8QIEZMcCjnl3Mn+pED5SBLGvElKO+OGtQbGkdfAoDZPs/88m01tbx3C+FkcwXe/GUs6+MiG2hgRYjtiKYAJREJGVfmGGs+9LAbkUvvPQJSA5fGPf50ItO7YRDyXtXUOMVYIen7b3PLLirtWuc6LQndvqmqo0inN+17OvscDnh4Lw0FjwZvP+/5Kgfo8LK40aA4EQ3o3ev+iteqIq7wXPrIn07+xWgAAAAABAAH//wAPeJyFlctvG1UUh+/12DPN1B7P3JnYjj2Ox4/MuDHxJH5N3UdaEUQLqBIkfQQioJWQ6AMEQkIqsPGCPwA1otuWSmTBhjtps2ADWbJg3EpIXbGouqSbCraJw7kzNo2dRN1cnXN1ZvT7zuuiMEI7ncizyA0URofRBJpCdbQuIFShYY+GZRrxMDVtih5TwQPHtXDFFSIKoWIbuREBjLH27Ny4MsbVx+uOJThavebgVrNRLAiYx06rXsvhxLgWx9xpfHdrs/ekc2Pl2cpPCVEITQpwbj8VQhfXSq2m+Wxqaq2D73Kne5e3NjHqQNj3CRYlJlgUl/jRNP+2Gs2pNYRQiOnmUaQDqm30KqKiTTWPWjboxnTWpvgxjXo0KrtZXAHt7hwIz0YVcj88JnKlJKi3NPAwLyDwZudSmJSMMJFDYaOkaol6XtESx3Gt1VTytdZJ3DCLeaVhVnCBH1fycHTxFXwPX+l2e3d6H/TufGGmMTLTnbSJUdo00zuBswMO/nl3YLeL/wnu9/limCuD3vC54h5NBVz6Li414AI8Vx3iiosKcQXUbrvhFFiYb++HN4DaF4XzFW0fIN4XDWJ3a3XQoq9V8WiyRmdsatV9xUcHims1JloH0YUa090G3Tro3mC6c01f+YwCPquINr1PTaCP6rVTOOmf0GE2dBc7zWIhji3/5MchSuBHgDbU99RMWt3YUNMZMJmx92YP6NsHx/5/M1yvInpnkIOM3Z8fA3JQ2lW1RFC1KaBPDFXNAHYYvGy73aYZZZ3HifbeuiVZCpwA3oQBs0wGPYJbJfg60xrKEbKiNtTe1adwrpBRwlAuQ3q3VRaX0QmQ9a49BTSCuF1MLfQ6+tinOubRBZuWPNoMevGMT+V41KitO1is3D/tpMcq1JHZqDHGs8DoYGDkxJgKjHROeTCmhZvzPm9pod+ltKm4PN7Dyvvldlpsg8D+4AUJZ3F/JBstZz7cbFRxsaAGV6yX/dkcycWf8eS3QlQea+YLjdm3yrOnrhFpUyKVvFE4lpv4bO3Svx/6F/4xmiDu/RT5iI++lko18mY1oX+5UGKR6kmVjM/Zb76yfHtxy+h/SyQ0lLdpdKy/lWB6szatetQJ8nZ80A2Qt6ift6gJeavU3BO4gtxs/KCtNPVibCtYCWY3SIlSBPKXZALXiIR9oZeJ1AuMyxLpHIy/yO7vSiSE+kZvk0ihJ30HgHfzZtEMmvV58x6dtqns0XTAW7Vdm4HJ04OCp/crOO7rd9SGxQAE/mVA9xRN+kVSMRFF6S9JFGUtthkjBA5tFCWc2l4V43Ex9GmUP3SI37Jjmir9KqlaDJ4S4JB3vuM/jzyH1+8MuoZ+QGzfnvPoJb96cZlWjMcKLfgDwB7E634JTY+asjsPzS5CiVnEWY+KsrsIN5rn3mAPjqmQBxGjcGKB9f9ZxY3mYC2L85CJ2FXIxKKyHk+dg0FHbuEc7D5NzWUX32WxFcWNGRAbvwSx0RmIXVDuYySafluQBmzA/ssqJAMLnli+WIC90Gw4lm85wcp0qjArEDPJJV/sSx4P9ungTpgMw5gVC1XO4uULq0s3v1rqLi0vX/z65vlH50f8T/RHmSPTk5xxWBWOluMT6WiOy+tdvWxlV/XQb3o3c6Ssr+r6I708GsX9/nzp1tKFh0s3v7m4vAy/Hnb/KMOvc1wump6Il48K6mGDy02X9Yd65pa+nQIjk76lWxCkG8NBCP0HQS9IpAAAeJxjYGRgYGBhcCrq214Qz2/zlUGenQEEzr/77oug/zewFbB+AHI5GJhAogBwKQ0qeJxjYGRgYH3/P46BgZ0BBNgKGBgZUAEPAE/7At0AAAB4nGNngAB2IGYjhBsYBAAIYADVAAAAAAAAAAAAAFwAyAEeAaACCgKmAx4DggRmAAAAAQAAAAwAagAEAAAAAAACAAEAAgAWAAABAAChAAAAAHiclZI7bxQxFIWPd/JkUYQChEhIyAVKgdBMskm1QkKrRETpQiLRUczueB/K7HhlOxttg8LvoKPgP9DxFxANDR0tHRWi4NjrPIBEgh1p/dm+vufcawNYFWsQmP6e4jSyQB2fI9cwj++RE9wTjyPP4LYoI89iWbyLPIe6+Bh5Hs9rryMv4GbtW+RF3EhuRa7jbrIbeQkPkjdUETOLnL0Kip4FVvAhco1RXyMnSPEz8gzWxE7kWTwUp5HnsCLeR57HW/El8gJWa58iL+JO7UfkOh4l9yMv4UnyEtvQGGECgwF66MNBooF1bGCL1ELB/TYU+ZBRlvsKQ44Se6jQ4a7hef+fh72Crv25kp+8lNWGmeKoOI5jJLb1aGIGvb6TjfWNLdkqdFvJw4l1amjlXtXRZqRN7lSRylZZyhBqpVFWmTEXgWfUrpi/hZOQXdOd4rKuXOtEWT3k5IArPRzTUU5tHKjecZkTpnVbNOnt6jzN8240GD4xtikvZW56043rPMg/dS+dlOceXoR+WPbJ55Dsekq1lJpnypsMUsYOdCW30o103Ytu/lvh+5RWFLfBjm9/N8hJntPhvx92rnoE/kyHdGasGy754kw36vsVf/lFeBi+0COu+cfgQr42G3CRpeLoZ53gmfe3X6rcKt5oVxnptHR9JS8ehVUd5wvvahN2uqxOOpMXapibI5k7Zwbt4xBSaTfoKBufhAnO/uqNcfK8OTs0OQ6l7JIqFjDhYj5WcjevCnI/1DDiI8j4ndWb/5YzDZWh79yomWXeXj7Nnw70/2TIeFPTrlSh89k1ObOSRVZWZfgF0r/zJQB4nG2JUQuCQBCEd07TTg36fb2IyBaLd3vWaUh/vmSJnvpgmG8YcmS8X3Shf3R7QA4OBUocUKHGER5NNbOOEvwc1txnuWkTRb/aPjimJ5vXabI+3VfOiyS15UWvyezM2xiGOPyuMohOH8O8JiO4Af+FsAGNAEuwCFBYsQEBjlmxRgYrWCGwEFlLsBRSWCGwgFkdsAYrXFhZsBQrAAA=) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>Haruki Miyazaki, director revolucionario</title></head><body><article class="markdown-body"><p>¿Qué rol debería cumplir el arte en el proyecto de la revolución? O de otra manera, ¿qué hace que el arte pueda ser llamado &ldquo;revolucionario&rdquo; y, entonces, arte de verdad? Estas preguntas ameritan un post especial, que yo pondría en la categoría de &ldquo;teoría revolucionaria&rdquo;. En este post, sólo voy a presentar una idea, de un sentido posible en que creo que el arte puede ser revolucionario y es aquel que considero, Miyazaki instancia.</p>
+<p>Según el marxismo, el arte está llamado a cumplir un rol &ldquo;crítico&rdquo;, en el sentido de oponerse a la sociedad, generar un momento de oposición, llevar a la consciencia de clase, que significa básicamente (todo esto dicho mal y pronto, tengo la esperanza de decir algo mal y que @amok lo tome como oportunidad para corregirme en el post correspondiente) darse cuenta de que uno pertenece a una clase y por lo tanto&hellip; vive, piensa, siente, experimenta el mundo de formas específicas. Cuando uno hace eso de verdad, para Marx y para mí, ve la necesidad de la revolución. O empieza a verla, al menos. Y el arte es/debe ser ese llamado, a encontrar lo humano ahí debajo de toda esa cosa rara que las clases sociales nos meten. Y el arte parece haber asumido su rol de una manera &ldquo;lógica&rdquo; en la forma de la denuncia, de la explicitación, del poner el mundo de la vida sobre la escena misma, como hicieron Eurípides y Shakespeare. Y así siguió haciendo por siglos. Hasta que llegó el capitalismo e hizo del arte una industria y de la denuncia un entretenimiento. Parece hoy, que por más cine apocalíptico que miremos, humor ácido, documentales explícitos, cine híper-realista y aunque pongamos toda, toda, toda la mierda del mundo en pantalla y mostremos que la causa son los políticos o el Estado o la gente mala o el capital, la consciencia de clase no aparece&hellip; Sin ánimos de juzgar el &ldquo;arte de denuncia&rdquo; en el sentido que fuere, me pregunto un poco por otro rol revolucinario que el arte podría cumplir, a ver si ayuda también a agitar un poco.</p>
+<p>Esta crítica muy Marcusseana que acabo de exponer, lleva a uno a pensar en lo siguiente: parece que lo que nos está faltando, desde hace rato ya, es pensar de manera coherente y profunda en lo bueno, en lo que podría ser. Y en ese sentido, el arte tiene un poder que suele faltarles a la filosofía y a las ciencias. En algún sentido, nos puede <em>mostrar</em> directamente, aquello que uno no termina de articular conceptualmente. O para romper esas trabas duras que tenemos, y las razones no pueden vencer. En ese sentido iba mi oda a <em>Los desposeídos</em> en mi otro post (y sí, me veo obligado vergonzosamente a auto-citarme, los culpo a ustedes por no postear más, aunque gracias por leer ;=)), el arte entendido como la experiencia más &ldquo;directa&rdquo; de algo posible y bello, deseable, lindo. Un posible rol para el arte revolucionario es, entonces, el de expandir nuestros horizontes hacia las cosas buenas que tenemos derecho a desar y tenemos razón para pensar que son posibles. Todo eso que el capitalismo malo no quiere que hagamos.</p>
+<p>Para ir al punto, cosa que me cuesta (y lo introduzco con esta condicional larguísima): si <em>Los desposeídos</em> son la expansión de los horizontes hacia formas diferentes de vivir en sociedad y comunidad, Miyazaki nos muestra la grandeza del espíritu humano, la bondad, la generosidad, el amor y la voluntad real de superar aquellas oposiciones y contradicciones del mundo, que atentan contra todo y buscan destruirlo. Fa mierda, ¿no? </p>
+<p>Y sí, hay algo muy mágico en este director de anime que podría resultarle chocante a algunos. Especialmente, porque todas esas propiedades hermosas que acabo de atribuirle así sin más a la naturaleza humana, aparecen normalmente en Miyazaki instanciadas en un héroe no más. Ese héroe, suele tener amigos y compañeros, pero también está rodeado de seres humanos complejos, de moralidad ambigua, buenos con los suyos y crueles con los otros, ecológicos, pero violentos; ambiciosos, pero honrados&hellip; humanos, como los que hay por todas partes. Y en ese sentido suele el héroe alzarse por encima de las contradicciones, pararse entre las oposiciones e intentar luchar para superar. El héroe entiende que todos están equivocados y todos tienen razón. El héroe actúa dirigiendo su mirada al bien común y final, dejando pasmados a los que lo rodean constantemente. Y en su actuar bien y honestamente, que el héroe se gana el favor de la gente y se constituye como tal, como líder, como guía, como vocero. </p>
+<p>Esa magia es peligrosa, porque puede invitar al argumento de la imposibilidad. A alguno más escéptico y duro, ese héroe puede resultarle demasiado virtuoso como para ser real, perdiendo así la posiblidad de pensar en esas cosas buenas. Les confieso que yo ya no soy ese espectador, a mí sus historias, sus héroes, sus mundos y sus personajes me conmueven, posta. Capaz entonces no sea el mejor para juzgarlo al nipón en su ser o no revolucionario. Reconozco que algo mágico hay, la que no puedo terminar de creerle es que al héroe le termine saliendo todo bien, o más bien, que no lo caguen matando antes. Pero fuera de eso, le creo todo.</p>
+<p>Esos héroes de voluntad sospechosamente inquebrantable, rodeados de esos personajes ambiguos sospchosamente familiares (con los que uno se identifica &ldquo;sin querer&rdquo; más de una vez), me hacen pensar en dos cosas, que tal vez son una sola. Creo que lo más mágico del héroe, en el sentido de copado y conmovedor y no de imposible, es que saca lo mejor de todos los que lo rodean y se abre a todo el mundo. Ahí se ve que no es sólo el héroe el único que puede ser bueno, por ser especial en algún sentido, sino que la bondad y la grandeza humana están en todos, ahí, esperando poder salir. Entonces, la segunda cosa, sería que está bueno pensar que hay héroes en el mundo, o que son posibles. Parecería que el capitalismo nos robó hasta eso&hellip; en la lógica corrompida de la democracia y en el discurso explícito y repetido de que &ldquo;el poder siempre corrpome, por lo tanto cualquier intento de que los seres humanos se organicen, va a resultar necesariamente en explotación&rdquo;, nos robaron la posibilidad de pensar que podemos actuar desinteresadamente. De que podemos pensar en el bien común, de que podemos vencer prejuicios&hellip; iba a decir &ldquo;cambiar&rdquo;, y ¡ay, qué horror! Hasta las palabras nos roban los políticos&hellip; Nos hacen creer que todos los &ldquo;líderes&rdquo; de la historia que intentaron un cambio más radical, terminaron corrompiéndose, mientras que los que constituyeron el ordenamiento que ellos defienden, tienen que estar en los billetes y en el día de su muerte no trabajamos. Y es que los líderes que triunfaron hasta ahora, son aquellos que seguían inmersos en la lógica de poder. Porque sí, es cierto, hasta ahora no hemos salido de ella y siempre que hubo revolución, vino explotación otra vez. Y quizás por eso Miyazaki no es &ldquo;realista&rdquo; en el sentido llano y tonto. Porque admite la posibilidad de que haya un resultado diferente. De que triunfe lo bueno que es evidente que hay en el ser humano, sobre lo malo, que también hay. En el héroe se ve lo mejor del ser humano, como en el villano se ve lo peor. En los mundos de Miyazaki (en general) hay héroes, pero no hay villanos. Y yo creo que nuestro mundo es igual, sólo que nos convencieron de lo contrario. Si sólo hay villanos, es porque en realidad todos somos malos. Si todos somos malos, sólo puede haber villanos. No hay héroes, no hay bondad, no hay cambio (cúrtanse), no hay libertad&hellip; </p>
+<p>No sé si los héroes son necesarios para hacer la revolución, ni sé muy bien cómo deberían ser. Hegel llamaba &ldquo;voceros del espíritu&rdquo; a aquellas grandes figuras de la historia que supieron expresar el momento del Espíritu en el que se encontraba el mundo. En algún sentido, algo de eso tiene el héroe miyazakiano, que vence la contradicción del mundo, comprendiéndola y mostrándole al mundo, a la vez, que es posible actuar de otra manera. Que hay otra lógica. </p>
+<p>Y justamente, por más que hable y hable, todo se reduce a sí el amor y la bondand los conmueven o no. Y Miyazaki es muuuucho mejor que este post, así que callo acá. Y veremos cuántos lloran como yo&hellip;</p>
+<p>Abajo, un comentario sobre algunas de las pelis que vi, para los que las vieron. Siéntanse libres de comentar las que me faltan!</p>
+<h1 id="spoiler-alert"><a name="user-content-spoiler-alert" href="#spoiler-alert" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>SPOILER ALERT</h1>
+<h2 id="nausicaa-del-valle-del-viento-kaze-no-tani-no-naushika-1984"><a name="user-content-nausicaa-del-valle-del-viento-kaze-no-tani-no-naushika-1984" href="#nausicaa-del-valle-del-viento-kaze-no-tani-no-naushika-1984" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Nausicaä del Valle del Viento (Kaze no tani no Naushika 1984)</h2>
+<p><a href="http://www.imdb.com/title/tt0087544/?ref_=rvi_tt">http://www.imdb.com/title/tt0087544/?ref_=rvi_tt</a></p>
+<p>En un mundo post-post-apocalíptico, 1000 años dps de la caída de las sociedad industriales, &ldquo;el mar de la decadencia&rdquo; contiene aún los restos tóxicos de nuestra sociedad, que hacen de toda esa zona un lugar inhabitable, plagada de insectos mutantes. Y todo va avanzando sobre los lugares habitados por la humanidad.</p>
+<p>En ese mundo, los grandes imperios que batallan entre sí, están todos convencidos de la necesidad de &ldquo;destruir&rdquo; el mar decadente, para de esa manera evitar que se expanda. Ese juego es interesantísimo ya. La humanidad teme a lo que no entiende, a lo oscuro y lo que amenaza. Su única respuesta es destruirlo, enfrentarlo, en vez de intentar primero comprenderlo. Y esa es una actitud posible frente al mundo, ¿no? Atacar lo desconocido, para que no me pueda atacar a mí. Ataque preventivo. No sé qué es, por las dudas lo destruyo. Y si bien los hombres de los imperios tienen un tinte de &ldquo;malos&rdquo;, especialmente al principio de la película, tienen una preocupación general, muy mal encaminada. Ellos todos luchan por salvar a la humanidad del mar corrupto y prometen, como hace Kushana la minita del imperio tolmekio cuando está ahí con todos sus soldados y tanques hablándole al pueblo del Valle del Viento. &ldquo;Si se unen a nosotros, vamos a destruir el mar y salvar a la humanidad de su miedo y su miseria&rdquo; o algo así. Y la gente de repente dice como &ldquo;ah&hellip; ¿posta? Bueno, capaz los tanques son necesarios, si nos van a salvar a todos&rdquo;. Y ahí llega Obaba, la anciana sabia, a desafiar el discurso. &ldquo;El mar no puede ser destruido, vas a atraer más destrucción, así viene siendo desde siempre&hellip;&rdquo; ¿no? ¿Para qué intentar una revolución, si todas terminan en lo mismo? Claro, la de esta gente seguro estaba destinada al fracaso. Y fíjense cómo la vieja piola cambia el discurso para llegar a la gente. ¿Qué sabe el pueblo campesino cómo hay que lidiar con aquello que temió toda la vida? El que prometa más y mejor, gana. Entonces la vieja desplaza su discurso sobre el sentido del mundo y las cosas, y revela cómo esta gente lo mataró al rey a sangre fría. Lo hace personal. Tira un <em>ad hominem</em> (la falacia en la que uno ataca a la persona en vez de los argumentos). Y ahí la gente se vuelve loca y pierde &ldquo;la ilusión&rdquo;, digamos, frente a la promesa de esta gente nueva. Y alguno podría decir &ldquo;ah, pero así no se argumenta, es una demagoga, estaba defendiendo sus intereses&rdquo;. Pero el punto que plantea es fundamental: ¿cómo esta gente que llega con tanques, armas y asesina a sangre fría a un anciano indefenso en su cama, va a traer algo bueno al mundo? &ldquo;Los medios son los fines&rdquo;, cita de <em>Los desposeídos</em>. Y algo de eso hay.</p>
+<p>La vieja bruja es la que tiene su vínculo profundo con la naturaleza y la comprende mejor que los brutos explotadores. Pero así todo, le falta una vuelta de rosca. Está trabada en un momento de oposición, el mar no se puede destruir, porque todo lo que hicimos (y lo que estos quieren hacer) lleva a que los insectos salgan furiosos a destruir todo lo que hay alrededor, y el mar se expanda aún más. ¿Y entonces? No se puede hacer nada, dice ella. Hay que vivir con eso, aceptarlo. Y está bien, pero el problema es que, incluso sin la intervención de los manijas tira bombas, las toxinas del mar y el bosque avanzan sobre el terreno fértil y el aire puro. Y eso es un hecho del mundo para todos ellos, no una forma de verlo, ni una interpretación. Los insectos están ahí, las esporas llegan y hay que quemarlas, si uno se mete demasiado, ya no puede respirar sin una máscara. Entonces la inercia de la anciana pierde en el discurso, incluso si está más cerca de la verdad que los que proponen la acción. Porque &ldquo;¡hay que actuar!&rdquo;, ¿no? Eso es una verdad para nosotros. &ldquo;¡Basta de teoría, a la acción, a resolver!&rdquo; Pero&hellip; &ldquo;esas acciones que ustedes hacen, sólo empeoran las cosas&rdquo;, dice la anciana. &ldquo;Y pero vos querés quedarte ahí sentada sin hacer nada&rdquo;, contesta el pueblo miedoso.</p>
+<p>Y en ese mundo vive Nausicaä, la princesa del Valle del Viento. Y ella es lo más. Lo más de lo más. El Valle es un lugar tranquilo, que vive en paz y con cierta armonía con el mar, porque están protegidos por un bosque. Ella es una líder natural, amada y respetada por el pueblo, y además, ella se mete en el mar y el bosque, a investigar, vuela como un pájaro y te caga piñas si hace falta. Pero por sobre todas las cosas, ella es la única que entiende ese mar de mierda. Porque es la única que dice &ldquo;¿por qué está así?&rdquo;. Ella ve la belleza del mundo donde nadie más puede, en esas plantas raras, en esos insectos mutantes, en todos lados. Entonces no entiende que la tierra misma pueda atentar contra la vida. Y si bien la conclusión de que eso está así porque los humanos lo contaminaron y lo destruyeron es obvia (conclusión a la que llega también la vieja), su originalidad heroica y hegeliana recae en que comprende cómo debe cambiar nuestra relación hacia el mundo, entre nosotros, con la naturaleza. Ella logra comunicarse con los insectos, calmarlos, llevarlos a su lugar de vuelta. Ella logra criar plantas no tóxicas, ella descubre cómo el mundo se sigue sosteniendo, a pesar de todas las toxinas. Ella ve que los insectos son los guardianes del bosque, que es lo que mantiene el mundo vivo a pesar de la contaminación. Y unos dicen que hay que destruirlo, y los otros piensan que no se puede hacer nada al respecto&hellip;</p>
+<p>Nausicaä muestra en sus acciones, pensamientos y decisiones que hay otra manera de hacer las cosas. Que rescata la necesidad de actuar y su urgencia, pero también una comprensión profunda del asunto en cuestión. Ella tiene el coraje de actuar de maneras altamente polémicas (salvando enemigos, arriesgando su vida por extraños, sometiéndose cuando la batalla no puede ser ganada) y todo lo que ella hace inspira al mundo, incluído el espectador. Quizás haya algo de inverosímil en todo eso. Ella es muy capa, puede ser inverosímil que sea tan buena en todo y que todo le salga tan bien. Pero yo creo que hubo y puede haber personas así, capaces de inspirarnos a todos a ser mejores. Habrá que tener varios, por los que morirán intentando calmar insectos gigantes o defendiendo el pueblo de grandes imperios&hellip;</p>
+<h2 id="el-castillo-en-el-cielo-tenku-no-shiro-rapyuta-1986"><a name="user-content-el-castillo-en-el-cielo-tenku-no-shiro-rapyuta-1986" href="#el-castillo-en-el-cielo-tenku-no-shiro-rapyuta-1986" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>El castillo en el cielo (Tenkû no shiro Rapyuta 1986)</h2>
+<p><a href="http://www.imdb.com/title/tt0092067/?ref_=rvi_tt">http://www.imdb.com/title/tt0092067/?ref_=rvi_tt</a></p>
+<p>Quizás no la más ejemplificadora de todo lo que dije arriba, pero una linda peli y con algunas cosas para rescatar (en los sentidos que aquí nos interesan). Uno de esos poderes que tiene la ficción es el de tomar ciertos supuestos como &ldquo;verdaderos&rdquo;, sin necesidad de justificar ni argumentar, más que con la coherencia y bellezas propias de la historia contada. Y además, puede aceptar supuestos que otros considerarían mutuamente incompatibles. Así, la discusión filosófica sobre si el humano es bueno o no (por naturaleza u otra razón), si puede llegar a serlo, <em>El castillo en el cielo</em> cuenta una historia en la hay gente buena, mala y ambigua, y esa historia es creíble y bella.</p>
+<p>Sheeto y Pazu son claramente buena gente. Son los héroes de la peli y en este caso no sé si los llamaría también &ldquo;líderes&rdquo;, aunque algo de eso haya, su historia parece más personal. Ambos arrancan con su propia historia, ella con el mambo de la piedra mágica y él con el deseo de reivindicar el nombre de su padre encontrando Laputa (no podía creer cuando aparece por primera vez el nombre de la ciudad&hellip;). Pero así todo, los dos niños &ldquo;rápidamente&rdquo; abandonan sus planes caprichosos y egoístas, por la sola idea de una vida tranquila entre ellos. Es claro, los motiva un amor entre ellos dos (quizás por sobre todas las cosas), pero así todo eligen el camino del héroe. Se amigan con los piratas, los personajes moralmente ambiguos de la peli, y priorizan rescatarlos hacia el final, cuando todo se está jugando para ellos. Ella mira horrorizada cómo tanto el robot como el coronel manija destruyen y matan a aquellos que siguen siendo para ella una amenaza, y se pone en riesgo para proteger a esa gente.<br />
+Creo que es interesante que los niños sean los buenos. Porque en el &ldquo;cómo son los niños&rdquo;, muchas veces intenta responderse la cuestión sobre cómo somos por naturaleza. Y es increíble cómo alguna gente cree que son malos por naturaleza, porque aprenden rápido a competir, a apropiarse de objetos, a intentar dominar para vencer&hellip; Lo único que eso prueba es que los niños aprenden rápido. También, dicen otros y Miyazaki parece jugar por ese supuesto, están menos contaminados por el mundo y por eso son buenos, tienen sus valores más claros, entienden mejor qué es lo que verdaderamente importa en esta vida.</p>
+<p>Tenemos al malo, el Coronel Musaka, que sólo quiere poder para sí. Está completamente alienado el muchacho, se nota. Dispuesto a cualquier cosa con tal de regocijarse en el hecho de tener poder, que sólo puede ver manifestado en destrucción. Un claro villano. Y supongo que de esos habrá también en el mundo, ¿no? Tipo Trump ponele. Es un poco el que nunca va a poder ser salvado, no matter what. Me parece que esa es un poco la idea interesante detrás del villano. No es el que es maldad pura, maldad por naturaleza, diablo encarnado. Es el que se alienó tanto que la perdió. No importa lo que hicieras, el loco sólo puede ver el mundo de esa manera y no va a parar hasta su propia destrucción. Y entonces, no hay que temer destruirlo, como hacen los héroes sin pregunta moral pelotuda, al final de la peli. </p>
+<p>Y los piratas, moralmente ambiguos, como los piratas del mundo. Si sos víctima, les temés y los odiás porque son malos. Pero dps ves que le estaban robando a los del ejército y el gobierno&hellip; y decís &ldquo;bueh, más malos que esos no son seguro&rdquo;. Y dps te das cuenta de que son re copados, eligieron ganarse el pan sacándoselo a quienes no deberían tenerlo. O algo así, ¿no?</p>
+<h1 id="la-princesa-mononoke-mononoke-hime-1997"><a name="user-content-la-princesa-mononoke-mononoke-hime-1997" href="#la-princesa-mononoke-mononoke-hime-1997" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>La Princesa Mononoke (Mononoke-hime 1997)</h1>
+<p><a href="http://www.imdb.com/title/tt0119698/?ref_=tt_rec_tt">http://www.imdb.com/title/tt0119698/?ref_=tt_rec_tt</a></p>
+<p>¡Qué linda peli! Voy a empezar con algo &ldquo;polémico&rdquo;, ponele. En esta peli se ve para mí muy claramente la idea que planteaba al principio de que el héroe es quien se para por encima de las contradicciones existentes para superarlas. Está el bosque, con toda su vida y su magia. Está la siderurgia de Lady Eboshi, con toda su destrucción de la naturaleza y cierta malicia, pero también con toda su bondad hacia la gente. Y ahí la contradicción, Eboshi no puede ver que si destruye el bosque, se destruye eventualmente a sí misma y a la gente que proteje. Pero claro, eso está muy lejos como para afectarle, entonces sólo concibe vivir a partir de la destrucción y, un poco, porque el mundo no parece dejarle otra. Y el bosque en respuesta, ¿qué hace? Ataca al hombre y justifica luego la represalia en el discurso. Combate como puede, pero ineficientemente. Y por eso creo que el héroe es Ashitaka y no Mononoke (capaz que era obvio, pero el personaje de ella es tan lindo, que bueno&hellip; no sé, ustedes me entienden). Porque él es el que se alza por encima de las contradicciones y dice, básicamente, &ldquo;¿no podemos vivir en armonía? ¿No podemos olvidar todas estas pavadas que nos echamos en cara y encontrar la forma de que nuestra existencia no implique la destrucción del otro?&rdquo;. Una y otra vez se muestra como héroe, poniendo por encima de todo &ldquo;la verdad&rdquo; y el amor, en vez de los intereses de uno u otro de los grupos en disputa, o los suyos propios. Lo cual hace que ninguno termine de saber bien &ldquo;de qué lado está Ashitaka&rdquo;&hellip; y ese es el punto, porque al final, logra ser la fuerza que mueve a todos, salvando a Eboshi una vez más, a pesar de lo que acababa de hacer y contra la ira de su amada princesa. Qué huevos eh. </p>
+<p>Y Mononoke es hermosa. Toma una decisión fatal, la de ser la heroína que defiende el bosque y la Naturaleza. Deja a los humanos, porque los humanos estaban en cualquiera bardeando todo, y lucha por la vida del bosque y sabe, además, que en definitiva los humanos también necesitan de esa naturaleza, aunque no lo vean. Creo que ella está mucho más cerca de la verdad que Eboshi, pero como Obaba, está atrapada en un momento de oposición. La renuncia a su humanidad le impide ver que la solución no está en destruir a los humanos que amenazan el bosque (porque siempre va a haber más&hellip;), sino en guiarlos a una nueva forma de vida, que no amenace ya la naturaleza. </p>
+<p>Para mantener cierta metáfora (y un poco a mi pesar, porque insisto en que su personaje me parece bellísimo), creo que puede pensarse en el rol que cumple Mononoke en analogía a ciertas formas de combatir el capitalismo hoy, que no son verdaderamente revolucionarias. Pienso en particular por el contenido de la peli, en las movidas ecológicas. Cumplieron un rol fundamental, que fue el de lograr el llamado a la conciencia sobre cómo estábamos afectando la naturaleza (si es que fueron Green Peace y compañía), pero ahí se quedaron. Creen que por impedir una tala, un derrame, una pesca &ldquo;ilegal&rdquo;, o lo que fuere, algo va a cambiar. Y sí, quizás cada uno de esos impedimentos tenga su valor intrínseco, y está muy bien que alguien lo haya hecho. Pero en definitiva, el problema pasa por otro lado. La relación del hombre con la naturaleza está corrupta desde sus fundamentos socio-culturales y no desde decisiones particulares. Destruís esta siderúrgica, impedís que se abra aquella papelera, salvás ese bosque&hellip; ¿y mañana? Y el eterno debate sobre &ldquo;si es más importante cuidar un río o darle trabajo a los que tienen hambre&rdquo; y análogos&hellip; No tienen sentido, son contradicciones, falsos problemas que emanan de formas más fundamentales. Y eso también se ve muy bien reflejado en la peli. La comunidad de Eboshi es la que elije &ldquo;tolerar&rdquo; el daño a la naturaleza (aunque ella dps se pase un poco más de mambo todavía), porque es la forma que encuentran de dar trabajo, de sobrevivir los ataques de los samurais, de tener una vida digna. ¿Qué decisión toman los hombres y mujeres que viven ahí? ¿Y cómo no van a ver a Mononoke como enemiga, si ataca su sustento mismo? Eboshi es peronista, da de comer, trata de garantizar mejores condiciones de vida, pero no piensa más allá de eso.</p>
+<p>Y una última cuestión muy interesante viene en el nivel del problema de la teodisea, el de si hay mal o no en el mundo. En esta peli, me parece, no hay villanos malvados. El que parece la encarnación del mal es el demonio del principio. Ashitaka lo reconoce como tal y lo ataca sin dudarlo (de una manera increíblemente valiente). Sin embargo, resulta no serlo. Y ahí, creo, hay un juego re interesante y lindo. Incluso lo que parece manifiestamente la personificación de lo que es malvado por naturaleza y debe ser destruido, no era malo por naturaleza. Es decir, no fue siempre malo, no es maldad en sí. Es la respuesta de la vida, el bosque, el animal, a los ataques del hombre. Los demonios no son esencias metafísicas malvadas, son seres devenidos en malos, por cómo fue el mundo en que les tocó vivir. La ira y el miedo los hicieron asi, los llevaorn al lado oscuro&hellip; Y Eboshi es un poco así también, una suerte de demonio humano, que &ldquo;elige&rdquo; ser mala con algunos, porque el mundo le enseñó que era la única forma de sobrevivir. </p>
+<p>Y lo interesante de que no haya maldad en sí, es que la bondad se vuelve mucho más posible. Si la maldad sólo es producto de condiciones que podemos cambiar, ¿por qué no podríamos tener un Ashitaka que nos lleve a superar las contradicciones que llevan a nuestra destrucción?</p>
+<h1 id="el-viaje-de-chihiro-sen-to-chihiro-no-kamikakushi-2001"><a name="user-content-el-viaje-de-chihiro-sen-to-chihiro-no-kamikakushi-2001" href="#el-viaje-de-chihiro-sen-to-chihiro-no-kamikakushi-2001" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>El viaje de Chihiro (Sen to Chihiro no kamikakushi 2001)</h1>
+<p><a href="http://www.imdb.com/title/tt0245429/?ref_=nv_sr_1">http://www.imdb.com/title/tt0245429/?ref_=nv_sr_1</a></p>
+<p>Otra peli preciosa. Creo que como Castillo, la historia es más de desenvolvimiento personal. Chihiro empieza su viaje como una nenita, caprichosa y molesta con su situación de mudanza y cambio. Llora desamparada frente a los espíritus misteriosos, en pánico, inmóvil. Empieza a desvanecerse&hellip; Pero una vez que acepta el mundo en el que vive todo empieza a ordenarse. Se vuelve en poco tiempo una mujer valiente, compasiva, abierta, generosa. En ese juego hegeliano de oposiciones que tanto me gusta, ella ve el sinsentido de la lucha entre ambas hermanas brujas. Sabe que Yubaba es medio mala, pero también es medio buena. Y ve que Zeniba estaba enojada, y no que era &ldquo;la mala de la peli&rdquo;, como quizás parecía al principio. </p>
+<p>El espíritu sin cara es otro lindo ejemplo de algo que parece maldad metafísica y no lo es. Parece el espíritu que simplmente devora y existe para engañar y destruir. Sin embargo, resulta ser no más que un espíritu solitario, en busca de amor y compañía&hellip;</p>
+<p>El viaje de Chihiro va desde la pérdida de su identidad, con la pérdida de su nombre que pasa a ser Sen, hasta el recuperar un nombre, que claramente ya no es el que era al principio, por estar al final, lleno de sentido. Con cada decisión ella empieza a constituirse como un nuevo individuo y como &ldquo;quien es realmente&rdquo;. Creo que su mayor virtud heroica es la entre total. En cada paso, deja algo atrás que parece irrecuperable, y lo hace, y lo hace convencida. Resiste sin dudas las tentaciones del espíritu sin cara, respondiendo &ldquo;no lo necesito&rdquo;. Y es la única que le da al espíritu (al dejarlo entrar), antes de que el espíritu ofrezca su tentación maligna. El summum creo que es cuando ella simplemente se toma el tren para ir a ver a Zanziba, sin que le importe cómo iba a volver, convencida de que eso es tanto lo correcto, como lo que tiene que hacer para salvar a su amado Haku. Y al final, su entrega se ve en la claridad y presteza con la que acepta que se tiene que ir de ahí, y que a Haku lo volverá a ver después. Y tiene su último logro, mucho más difícil de lo que parece, de cruzar el túnel sin mirar para atrás ni una vez&hellip; hasta yo me di vuelta.</p></article></body></html>

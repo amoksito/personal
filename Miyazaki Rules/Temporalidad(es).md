@@ -1,0 +1,43 @@
+# El tiempo de la comunidad intermonádica.
+
+Fenomenológicamente hablando, hay al menos dos tiempos que tienen que ser considerados:
+
+1. La temporalidad inmanente de la conciencia, con sus momentos de simultaneidad y sucesión.
+2. La temporalidad trascendente del _Lebenswelt_ particular donde vive cada mónada.
+
+Y, sin embargo, la pregunta de la relación entre ambos subsiste. Si nos tomamos en serio los dichos de Husserl, el tiempo2 se fundamentaría necesariamente sobre el tiempo1. Pero, por otra parte, la conciencia vive sus recuerdos, su presente y su futuro en parte en relación con el tiempo2. Así, el tiempo1 NO ES el tiempo de la conciencia, del __ego-empírico__, de este yo-hombre que soy yo, sino que es el tiempo abstracto del sujeto trascendental como polo abstracto, lógico y vacío. Es decir, la temporalidad inmanente no rige la vida de la conciencia _en primera persona_, sino la vida de una suerte de proto-yo que sintetiza pasivamente el material hylético. 
+
+El yo-trascendental pleno, esto es, no el polo abstracto, lógico y vacío sino la mónada con sus sedimentaciones y sus horizontes de sentido, vive en el tiempo2. Se "__temporaliza__" para decirlo con Heidegger, a través del tiempo2. No me proyecto hacia el futuro en mi temporalidad inmanente, sino que me proyecto hacia el futuro, pongo mis objetivos y mis metas, en el tiempo2, que se __periodiza__ según el tiempo2. 
+
+Pero, a su vez, no hay una única temporalidad "trascendente". El tiempo2, el tiempo-afuera, el tiempo-otro puede experimentarse de múltiples maneras. Puedo "temporizarme-mal". La __espera__, cuando nos defrauda en nuestra proyección, es probablemente el caso más paradigmático de tal "mala-temporización". Probablemente no es la única. Y sin embargo, el tiempo de la espera no coincide con el tiempo del calendario, dado que es un tiempo 'libidinizado' para decirlo con Freud, o un tiempo que "ya-habito" para decirlo con Heidegger. El tiempo del calendario, en su abstracción más formal, no es un tiempo que habite verdaderamente. Es condición de posibilidad para ciertas proyecciones, pero eso es todo. Por otro lado, así como Husserl escribe que _la tierra no se mueve_, lo mismo podríamos decir que _los días no suceden_ (no necesariamente). O no necesariamente al menos. Se-suceden solamente si somos capaces de dormir-todos-los-días. Si sos capaz, como ego-empírico, de constituir el tiempo2 a partir de la propia periodización de tus dormires y tus despertares.
+
+En el _Umwelt_, lo que prevalece es el "envejecer-juntos". Hay comunidad, verdadera unión-amorosa, cuando los proyectos coinciden lo suficiente para declarar que hay una "temporalidad-libidinizada", una temporalidad-constituida-afectivamente, que es compartida entre los 'unidos' (familia, pareja, amigos, colegas, etc.). Estas son temporalidades que no se constituyen "automáticamente", "pasivamente" como la temporalidad1, sino que son temporalidades con las que hay que comprometerse, y temporalidades que hay que habitar-juntos, en los cuatro momentos en que se parte el tiempo para cualquiera: pasado-mi/presente-tu(su)/presente/simultaneo-futuro.
+
+% Yo viví el presente-simultaneo de Debb. Ella no vivió el mío. Y ahora, 'actualmente', sigue siendo así.
+
+Siempre estamos en un presente. Pero ese presente es, en realidad, una __actualidad__, con un particular horizonte de pasado y futuro. Esa __actualidad__ queda definida por el presente-simultaneo de los otros con los que habito tal horizonte-temporal. (Lo mismo, _mutatis mutandis_, debe suceder con el cuerpo como punto-0 y la territorialidad que acompaña a la constitución de todo espacio común). 
+
+Importante: no solo hay un tiempo del calendario, también hay un tiempo del reloj. Compartimos el tiempo del calendario con toda la humanidad, compartimos el tiempo del reloj con nuestra comunidad más cercana. 
+
+Walton dice que dice Husserl, que la primera __periodización del tiempo__ aparece con los cilos de satisfacción de las necesidades vitales instintivas. Tenemos así ciclos de: _privación, satisfacción (enjoyment), saciedad y nuevamente privación_. Esto puede decirse de cualquier necesidad biológica, pero también de otras necesidades-habituales que se adquirimos de nuestro habitar en el tiempo2 (ya se trate de comer, descansar, garchar, leer novelas de sci-fi o participar en congresos). 
+
+% Debb siempre me ganó porque su sentimiento de privación-de-mi aparece siempre después que mi sentimiento de privación-de-ella.
+
+Dejando de lado las necesidades-habitualidades-adquiridas en el tiempo2, esta primera temporalidad es una temporalidad-meramente-animal. O mejor, una temporalidad-biológica (en donde se incluyen, quizá, cosas como mi necesidad de fumar-un-cigarrillo, y acá es interesante considerar que los ciclos tienen su propia temporalidad inmanente por así decirlo: nervioso necesito tranquilin y nicotina más a menudo que feliz, después de caminar necesito hidratarme más a menudo que si veo la tele, etc, etc.). Whatever, además de estos ciclos "a-corto-plazo" por así llamarlos, Husserl distingue otro ciclo "a-largo-plazo", que es el del cambio de las estaciones. Pero nuevamente, esto parece ser una peculiaridad de la vida animal "en la tierra", en el Lebenswelt de los animales terrícolas, no una necesidad trascendental posta.
+
+Pregunta: ¿Cómo afecta la doctrina de las "vías de la reducción" de Iso Kern la doctrina de la temporalidad? Porque si realmente hay __vías__ como sostiene Kern (Husserl und Kant, 1964) entonces en la vía-cartesiana se debería privilegiar el tiempo1, pero en la vía-intermonádica se debería privilegiar la temporalidad2.
+
+Antes de responder eso, hay que desarrollar la propia pregunta. El problema es el de la prioridad, o no, del sujeto-trascendental-cartesiano frente al sujeto-trascendental-intermonádico. O más aún, para decirlo en terminos de Don Welton, el de la prioridad del ego-cogito o la __equiprimordialidad__ entre yo-y-mundo (The Other Husserl, 2000). Claro que esto ya está en MPonty:
+
+> Todo el malentendido de Husserl con sus intérpretes, con los «disidentes» existenciales y, finalmente, consigo mismo, estriba en que, precisamente para ver el mundo y captarlo como paradoja, hay que romper nuestra familiaridad con él; y esta ruptura no puede enseñarnos nada más que el surgir inmotivado del mundo. La mayor enseñanza de la reducción es la mi posibilidad de la reducción completa (PPP, p.13). 
+
+Por otro lado, y como dije antes, el ego-yo-cartesiano ni siquiera es la mónada (osea, el yo-con-horizontes). Es apenas el sujeto lógico, el polo vacío y abstracto que se nos presenta en Ideen I. Pero este ni siquiera se basta a sí mismo, sino que depende de una temporalidad que a su vez está condicionada por una proto-generatividad que, a su vez, tampoco es del yo, sino del proto-yo. Llegamos entonces a la conclusión de que el yo-polo-vacío no es el fundamento de nada, o al menos, que a su vez necesita de fundamentación en un proto-yo, que a su vez necesita como motivación para poner en marcha el motor de la constitución, alguna _falta_ (Nam-In Lee, _Husserl Phänomenologie der Instinkte_, 1993 y Anne Montavont, _De la passivite dans la phenomenologie de Husserl_, 1999). 
+
+Para todo esto ni siquiera hay un texto de HUA, sino que hay que recurrir a los más locos _Husserliana Materialien_, como el tomo VIII: _Späte Texte über Zeitkonstitution_ (1929-1934). (La diferencia entre los tomos 'normales' de HUA, y los 'locos' de HUA.M se me escapa totalmente). 
+
+MPonty también tiene algo que decir acerca del "sujeto" de las constituciones-pasivas, que no es ni ego-cartesiano ni mónada-intersubjetiva para él, sino una suerte de "Geist" que es despertado por el Mundo. Por supuesto esto no se sostiene por sí mismo, y de allí que MPonty decante hacia una Ontología de la Carne. Pero esto esta imbricación entre yo-y-mundo que trata de artícular MPonty, no resuelve nuestro problema, dado que la relación no toma en cuenta, verdaderamente, la diferencia entre yo-y-Naturaleza y yo-y-Lebenswelt.
+
+> El sujeto de la sensación no es ni un pensador que nota una cualidad, ni un medio inerte por ella afectado o modificado; es una potencia que co-nace (co-noce) a un cierto medio de existencia o se sincroniza con él [...] Presto yo oídos o miro en la expectativa de una sensación y de pronto lo sensible coge mi oído o mi mirada, entrego una parte de mi cuerpo, o incluso todo mi cuerpo, a esta manera de vibrar y llenar el espacio que es azul o rojo (PPP, p. 227).
+
+Para que quede todo claro, hay que distinguir, también, entre la __pasividad__ de Husserl, y la __espontaneidad__ de Kant. Sino, el sentido en que algo es "ICC" se pierde conceptualmente.
+

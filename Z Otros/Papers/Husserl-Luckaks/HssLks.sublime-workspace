@@ -1,0 +1,331 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 381.0,
+		"last_filter": "acade",
+		"selected_items":
+		[
+			[
+				"acade",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"aca",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"cite",
+				"Citer: Search"
+			],
+			[
+				"word",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"amulti",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"paste",
+				"Paste PDF Text with Pandoc Footnote"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"academi",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"pas",
+				"Paste PDF Text"
+			],
+			[
+				"pdf",
+				"Paste PDF Text"
+			],
+			[
+				"acad",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"academic",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Snippet: _",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Papers/Husserl-Luckaks"
+	],
+	"file_history":
+	[
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Papers/Husserl-Luckaks/Probando.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Z-boludeces/Z.sublime-project",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Z-boludeces/Z-Boludeces.sublime-project",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Papers/Husserl-Luckaks/Hss-Lks.sublime-project",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Papers/Husserl-Luckaks/Luckacs - Husserl.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Z-boludeces/Realismo y Objetivismo en Mecánica Cuántica.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Z-boludeces/Música.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Z-boludeces/Literatura.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Z-boludeces/Cine.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Papers/Husserl-Luckaks/Husserl.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Papers/Husserl-Luckaks/Hss-Luck.sublime-workspace",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Papers/Husserl-Luckaks/Hss-Luck.sublime-project",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Desafios al idealismo aleman.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Woodruf Smith y Annie Thomason.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Tipos de Síntesis % Estética.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Perlitas.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Nachwort.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Marcuse 1.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Lukács y su relación con Engels.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Diario Psicoanalítico.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Husserl vs Gurwitsch vs Merleau-Ponty.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Jornadas PostHegelianas.md",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/Lógica y Ontología.md",
+		"/C/Users/EmilianoRoberto/Documents/Diario Psicoanalítico.md",
+		"/C/Users/EmilianoRoberto/Documents/Husserl vs Gurwitsch vs Merleau-Ponty.md",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/User/AutoBackups (Windows).sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/AutoBackups/AutoBackups (Windows).sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/User/AcademicMarkdown.sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/AcademicMarkdown/AcademicMarkdown.sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/PandocReferencr/PandocReferencr.sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
+		"/C/Users/EmilianoRoberto/Dropbox/Dropbox/Draft/Sublime/mail.md",
+		"/C/Users/EmilianoRoberto/Documents/Tipos de Síntesis % Estética.md",
+		"/C/Users/EmilianoRoberto/Documents/Marcuse 1.md",
+		"/C/Users/EmilianoRoberto/La QM y su relación con la Ontología Formal.md",
+		"/C/Users/EmilianoRoberto/Documents/Lukács y su relación con Engels.md",
+		"/C/Users/EmilianoRoberto/Documents/Perlitas.md",
+		"/C/Users/EmilianoRoberto/Documents/Woodruf Smith y Annie Thomason.md",
+		"/C/Users/EmilianoRoberto/Documents/Nachwort.md",
+		"/C/Users/EmilianoRoberto/Documents/Desafios al idealismo aleman.md",
+		"/E/Documentos/Markdown/Collie Wills",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/EmilianoRoberto/Documents/Jornadas PostHegelianas.md",
+		"/C/Users/EmilianoRoberto/Documents/Cine.md",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Default (Windows).sublime-keymap",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/C/Users/EmilianoRoberto/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 126.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"=",
+			"Demian (Hermann Hesse)",
+			"fenomenos",
+			"Tiezen",
+			"Highlight",
+			"---"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fenómenos",
+			"Tieszen"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "HssLks.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Z.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"fss_on_distraction_free": false,
+		"fss_on_full_screen": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
