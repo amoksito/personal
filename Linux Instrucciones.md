@@ -9,6 +9,13 @@
 
 - prompt: Desactiva la Shell interactiva, así no tenemos que apretar 'y' todo el tiempo.
 
+# GIT
+
+- Más útil que FTP es GIT hoy en día. Tenemos un repositorio propio: amoksito/personal.
+- git clone https://github.com/amoksito/personal
+- git commit -m "nuevo"
+- git push -u origin master
+
 # Linux
 
 - En Arch instalar: gvfs-google y gvfs-goa installed para Google Drive.
